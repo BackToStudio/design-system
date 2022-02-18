@@ -1,0 +1,9 @@
+{
+    "name": "olivier/composer-package-test",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+          "Olivier\\ComposerPackageTest\\": "src/"
+        }
+    }
+}
