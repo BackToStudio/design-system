@@ -1,5 +1,5 @@
 {
-    "name": "laracraft/composer-package-test",
+    "name": "packages/composer-package-test",
     "description": "",
     "autoload": {
         "psr-4": {
