@@ -1,6 +1,8 @@
 <?php
 
-namespace PQP\DesignSystem\Decorators;
+namespace PQP\DesignSystem\Decorators\Button;
+
+use PQP\DesignSystem\Decorators\StyleDecorator;
 
 class ButtonBehaviourDecorator implements StyleDecorator
 {

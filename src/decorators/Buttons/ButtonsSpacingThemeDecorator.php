@@ -1,6 +1,8 @@
 <?php
 
-namespace PQP\DesignSystem\Decorators;
+namespace PQP\DesignSystem\Decorators\Buttons;
+
+use PQP\DesignSystem\Decorators\StyleDecorator;
 
 class ButtonsSpacingThemeDecorator implements StyleDecorator
 {

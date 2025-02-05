@@ -1,6 +1,8 @@
 <?php
 
-namespace PQP\DesignSystem\Components;
+namespace PQP\DesignSystem\Components\Button;
+
+use PQP\DesignSystem\Components\TokenComponent;
 
 class ButtonIconComponent extends TokenComponent
 {
