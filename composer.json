@@ -1,9 +1,10 @@
 {
-    "name": "packages/composer-package-test",
-    "description": "",
+    "name": "pqp/design-system",
+    "description": "Le design system de PQP",
     "autoload": {
         "psr-4": {
-          "Olivier\\ComposerPackageTest\\": "src/"
+          "PQP\\DesignSystem\\Components\\": "src/components",
+          "PQP\\DesignSystem\\Decorators\\": "src/decorators"
         }
     }
 }
