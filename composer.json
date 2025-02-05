@@ -1,5 +1,5 @@
 {
-    "name": "pqp/design-system",
+    "name": "webcd/design-system",
     "description": "Le design system de PQP",
     "autoload": {
         "psr-4": {

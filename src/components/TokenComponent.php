@@ -2,7 +2,7 @@
 
 namespace PQP\DesignSystem\Components;
 
-use PQP\Decorators\StyleDecorator;
+use PQP\DesignSystem\Decorators\StyleDecorator;
 
 class TokenComponent
 {
