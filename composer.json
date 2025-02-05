@@ -1,10 +1,11 @@
 {
-    "name": "webcd/design-system",
-    "description": "Le design system de PQP",
-    "autoload": {
-        "psr-4": {
-          "PQP\\DesignSystem\\Components\\": "src/components",
-          "PQP\\DesignSystem\\Decorators\\": "src/decorators"
-        }
+  "name": "webcd/design-system",
+  "description": "Le design system de PQP",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "PQP\\DesignSystem\\Components\\": "src/components",
+      "PQP\\DesignSystem\\Decorators\\": "src/decorators"
     }
+  }
 }
