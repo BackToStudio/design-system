@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Buttons;
 
-use PQP\DesignSystem\Components\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponent;
 
 class ButtonsComponent extends TokenComponent
 {

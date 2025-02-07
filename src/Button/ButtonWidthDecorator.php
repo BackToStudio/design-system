@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Button;
 
-use PQP\DesignSystem\Decorators\StyleDecorator;
+use PlusQuePro\DesignSystem\StyleDecorator;
 
 class ButtonWidthDecorator implements StyleDecorator
 {
