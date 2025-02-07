@@ -1,6 +1,6 @@
 <?php
 
-namespace PQP\DesignSystem\Components;
+namespace PlusQuePro\DesignSystem;
 
 trait HasCustomStyles
 {

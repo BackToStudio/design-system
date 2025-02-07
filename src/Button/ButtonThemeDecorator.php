@@ -1,6 +1,6 @@
 <?php
 
-namespace PQP\DesignSystem\Decorators\Button;
+namespace PlusQuePro\DesignSystem\Button;
 
 use PQP\DesignSystem\Decorators\StyleDecorator;
 

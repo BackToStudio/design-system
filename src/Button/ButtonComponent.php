@@ -1,8 +1,8 @@
 <?php
 
-namespace PQP\DesignSystem\Components\Button;
+namespace PlusQuePro\DesignSystem\Button;
 
-use PQP\DesignSystem\Components\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponent;
 
 class ButtonComponent extends TokenComponent
 {

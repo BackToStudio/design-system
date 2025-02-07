@@ -1,8 +1,6 @@
 <?php
 
-namespace PQP\DesignSystem\Components;
-
-use PQP\DesignSystem\Decorators\StyleDecorator;
+namespace PlusQuePro\DesignSystem;
 
 class TokenComponent
 {

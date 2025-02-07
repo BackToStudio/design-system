@@ -1,6 +1,6 @@
 <?php
 
-namespace PQP\DesignSystem\Components\Buttons;
+namespace PlusQuePro\DesignSystem\Buttons;
 
 use PQP\DesignSystem\Components\TokenComponent;
 

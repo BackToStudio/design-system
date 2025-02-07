@@ -4,8 +4,7 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "PQP\\DesignSystem\\Components\\": "src/components",
-      "PQP\\DesignSystem\\Decorators\\": "src/decorators"
+      "PlusQuePro\\DesignSystem\\": "src/"
     }
   }
 }
