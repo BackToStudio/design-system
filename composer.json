@@ -1,9 +1,10 @@
 {
-    "name": "packages/composer-package-test",
-    "description": "",
-    "autoload": {
-        "psr-4": {
-          "Olivier\\ComposerPackageTest\\": "src/"
-        }
+  "name": "webcd/design-system",
+  "description": "Le design system de PQP",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "PlusQuePro\\DesignSystem\\": "src/"
     }
+  }
 }
