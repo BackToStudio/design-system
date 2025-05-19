@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Audio;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class AudioComponent extends TokenComponent
+class AudioComponent extends TokenComponentWithChildren
 {
 	private string $src = '';
 	private bool $autoplay = false;

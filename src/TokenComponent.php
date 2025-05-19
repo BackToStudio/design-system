@@ -6,7 +6,6 @@ class TokenComponent
 {
     use HasClasses;
     use HasAttributes;
-    use HasChildren;
     use HasCustomStyles;
 
     private string $tagName = 'div';
@@ -44,11 +43,8 @@ class TokenComponent
         $attributes = $this->prepareAttributes();
         $tagName = $this->getTagName();
 
-        $markup = '<' . $tagName . ' ' . $attributes . '>';
-        $markup .= join(' ', $this->getChildren());
-        $markup .= '</' . $tagName . '>';
-
-        return $markup;
+        // Balise auto-fermante
+        return '<' . $tagName . ' ' . $attributes . '/>';
     }
 
     public function prepareAttributes(): string

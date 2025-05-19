@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\List;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class ListComponent extends TokenComponent
+class ListComponent extends TokenComponentWithChildren
 {
 	private bool $ordered = false;
 	private string $type = 'disc';
@@ -44,7 +44,6 @@ class ListComponent extends TokenComponent
 	{
 		$this->setTagName('ul');
 
-		$type = $this->getType();
 		$start = $this->getStart();
 
 		if ($this->isOrdered()) {

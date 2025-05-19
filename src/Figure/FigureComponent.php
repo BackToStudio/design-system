@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Figure;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class FigureComponent extends TokenComponent
+class FigureComponent extends TokenComponentWithChildren
 {
 	public function getMarkup(): string
 	{

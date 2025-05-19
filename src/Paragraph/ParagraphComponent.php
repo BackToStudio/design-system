@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Paragraph;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class ParagraphComponent extends TokenComponent
+class ParagraphComponent extends TokenComponentWithChildren
 {
 	public function getMarkup(): string
 	{

@@ -3,21 +3,14 @@
 namespace PlusQuePro\DesignSystem\Figcaption;
 
 use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class FigCaptionComponent extends TokenComponent
+class FigCaptionComponent extends TokenComponentWithChildren
 {
-	private string $children = '';
-
-	public function setChildren(string $children): self
-	{
-		$this->children = $children;
-		return $this;
-	}
 
 	public function getMarkup(): string
 	{
 		$this->setTagName('figcaption');
-		$this->addChild($this->children);
 
 		return parent::getMarkup();
 	}

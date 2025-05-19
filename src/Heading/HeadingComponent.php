@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Heading;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class HeadingComponent extends TokenComponent
+class HeadingComponent extends TokenComponentWithChildren
 {
 	private int $level = 2;
 

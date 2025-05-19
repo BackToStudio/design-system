@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Button;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class ButtonComponent extends TokenComponent
+class ButtonComponent extends TokenComponentWithChildren
 {
     public function setType(string $type): void
     {

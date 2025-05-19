@@ -2,41 +2,41 @@
 
 namespace PlusQuePro\DesignSystem\Table;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class TableComponent extends TokenComponent
+class TableComponent extends TokenComponentWithChildren
 {
-	private TokenComponent $table;
-	private TokenComponent $thead;
-	private TokenComponent $tbody;
-	private TokenComponent $tfoot;
+	private TokenComponentWithChildren $table;
+	private TokenComponentWithChildren $thead;
+	private TokenComponentWithChildren $tbody;
+	private TokenComponentWithChildren $tfoot;
 
 	private bool $fixedLayout = false;
 
 	public function __construct()
 	{
-		$this->table = new TokenComponent();
-		$this->thead = new TokenComponent();
-		$this->tbody = new TokenComponent();
-		$this->tfoot = new TokenComponent();
+		$this->table = new TokenComponentWithChildren();
+		$this->thead = new TokenComponentWithChildren();
+		$this->tbody = new TokenComponentWithChildren();
+		$this->tfoot = new TokenComponentWithChildren();
 	}
 
-	public function getTable(): TokenComponent
+	public function getTable(): TokenComponentWithChildren
 	{
 		return $this->table;
 	}
 
-	public function getThead(): TokenComponent
+	public function getThead(): TokenComponentWithChildren
 	{
 		return $this->thead;
 	}
 
-	public function getTbody(): TokenComponent
+	public function getTbody(): TokenComponentWithChildren
 	{
 		return $this->tbody;
 	}
 
-	public function getTfoot(): TokenComponent
+	public function getTfoot(): TokenComponentWithChildren
 	{
 		return $this->tfoot;
 	}
@@ -54,17 +54,17 @@ class TableComponent extends TokenComponent
 	public function getMarkup(): string
 	{
 		$this->setTagName('figure');
-		$this->table->setTagName('table');
+		$this->getTable()->setTagName('table');
 
-		$this->thead->setTagName('thead');
-		$this->tbody->setTagName('tbody');
-		$this->tfoot->setTagName('tfoot');
+		$this->getThead()->setTagName('thead');
+		$this->getTbody()->setTagName('tbody');
+		$this->getTfoot()->setTagName('tfoot');
 
-		$this->table->addChild($this->getThead()->getMarkup());
-		$this->table->addChild($this->getTbody()->getMarkup());
-		$this->table->addChild($this->getTfoot()->getMarkup());
+		$this->getTable()->addChild($this->getThead()->getMarkup());
+		$this->getTable()->addChild($this->getTbody()->getMarkup());
+		$this->getTable()->addChild($this->getTfoot()->getMarkup());
 
-		$this->addChild($this->table->getMarkup());
+		$this->addChild($this->getTable()->getMarkup());
 
 		return parent::getMarkup();
 	}

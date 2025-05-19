@@ -2,6 +2,8 @@
 
 namespace PQP\Components;
 
+use PlusQuePro\DesignSystem\TokenComponent;
+
 class ImageComponent extends TokenComponent
 {
 	protected string $title = '';

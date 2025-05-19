@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\PostTemplate;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class PostTemplateComponent extends TokenComponent
+class PostTemplateComponent extends TokenComponentWithChildren
 {
 	public function getMarkup(): string
 	{

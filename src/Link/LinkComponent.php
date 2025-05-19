@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Link;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class LinkComponent extends TokenComponent
+class LinkComponent extends TokenComponentWithChildren
 {
 	protected string $href = '';
 	protected string $target = '';

@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Buttons;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class ButtonsComponent extends TokenComponent
+class ButtonsComponent extends TokenComponentWithChildren
 {
     public function getMarkup(): string
     {

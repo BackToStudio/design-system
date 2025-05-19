@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\PostTerms;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class PostTermsComponent extends TokenComponent
+class PostTermsComponent extends TokenComponentWithChildren
 {
 	public function getMarkup(): string
 	{
