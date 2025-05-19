@@ -1,19 +1,21 @@
 <?php
 
-namespace PQP\Components;
+namespace PlusQuePro\DesignSystem\Embed;
+
+use PlusQuePro\DesignSystem\TokenComponent;
 
 class EmbedCompoundComponent extends TokenComponent
 {
-	private TokenComponent $figCaptionComponent;
+	private TokenComponent $figcaptionComponent;
 
 	public function __construct()
 	{
-		$this->figCaptionComponent = new TokenComponent();
+		$this->figcaptionComponent = new TokenComponent();
 	}
 
-	public function getFigCaptionComponent(): TokenComponent
+	public function getFigcaptionComponent(): TokenComponent
 	{
-		return $this->figCaptionComponent;
+		return $this->figcaptionComponent;
 	}
 
 	public function getMarkup(): string
@@ -22,9 +24,9 @@ class EmbedCompoundComponent extends TokenComponent
 		$this->addClass('wp-block-embed');
 		$this->addClass('relative');
 
-		$this->figCaptionComponent->setTagName('figcaption');
+		$this->figcaptionComponent->setTagName('figcaption');
 
-		$this->addChild($this->figCaptionComponent->getMarkup());
+		$this->addChild($this->figcaptionComponent->getMarkup());
 		return parent::getMarkup();
 	}
 }
