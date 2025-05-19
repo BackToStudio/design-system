@@ -9,14 +9,14 @@ use PlusQuePro\DesignSystem\Heading\HeadingComponent;
 
 // Création d'un heading de niveau 2 (par défaut, issu de l'éditeur Gutenberg)
 $heading = new HeadingComponent();
-$heading->addChild('Titre principal');
+$heading->addChild('Titre secondaire');
 echo $heading->render();
 
-// Création d'un heading de niveau 3
+// Création d'un heading de niveau 1
 $heading = new HeadingComponent();
 $heading
-    ->setLevel(3)
-    ->addChild('Sous-titre');
+    ->setLevel(1)
+    ->addChild('Titre principal');
 echo $heading->render();
 ```
 
