@@ -20,10 +20,9 @@ echo $hr->getMarkup();
 
 ## Bonnes pratiques
 - Utiliser ce composant uniquement pour insérer une séparation visuelle.
-- Ne pas ajouter d'enfants au composant (hérité mais inutile pour `<hr>`).
 - Utiliser la classe CSS `wp-block-separator` pour un style cohérent avec le design system.
 - Pour des personnalisations avancées, utiliser les décorateurs ou l'ajout de classes.
 
 ## Liens utiles
-- [Documentation sur la balise <hr> (MDN)](https://developer.mozilla.org/fr/docs/Web/HTML/Element/hr)
+- [Documentation sur la balise `<hr>` (MDN)](https://developer.mozilla.org/fr/docs/Web/HTML/Element/hr)
 - [TokenComponent (héritage)](../TokenComponent.php) 
