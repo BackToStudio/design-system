@@ -53,8 +53,10 @@ Le design system de Plus que pro vise à garantir la cohérence, l'efficacité e
   - Marges : `MarginTop`, `MarginBottom`, `MarginLeft`, `MarginRight`
   - Paddings : `PaddingTop`, `PaddingBottom`, `PaddingLeft`, `PaddingRight`
   - Grilles et gaps : `BlockGap`, `BlockGapHorizontal`, `BlockGapVertical`
-- **Couleurs & Typographie** :
-  - `TextColor`, `BackgroundColor`, `FontFamily`, `FontWeight`, `TextAlign`, `TextDecoration`, `TextFontSize`, `TextTransform`
+- **Couleurs** :
+  - `TextColor`, `BackgroundColor`
+- **Typographie** :
+  - `FontFamily`, `FontWeight`, `TextAlign`, `TextDecoration`, `TextFontSize`, `TextTransform`
 - **Effets** :
   - Ombres : `ShadowDecorator`
   - Bordures : `BorderRadius`, `BorderRadiusTopLeft`, `BorderRadiusTopRight`, `BorderRadiusBottomLeft`, `BorderRadiusBottomRight`
