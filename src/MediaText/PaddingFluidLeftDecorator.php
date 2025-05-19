@@ -4,7 +4,7 @@ namespace PlusQuePro\DesignSystem\MediaText;
 
 use PlusQuePro\DesignSystem\StyleDecorator;
 
-class PaddingLeftDecorator implements StyleDecorator
+class PaddingFluidLeftDecorator implements StyleDecorator
 {
     private string $padding = '';
 
