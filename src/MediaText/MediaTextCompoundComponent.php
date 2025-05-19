@@ -1,6 +1,6 @@
 <?php
 
-namespace PQP\Components;
+namespace PlusQuePro\DesignSystem\MediaText;
 
 use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Image\ImageComponent;
