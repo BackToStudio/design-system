@@ -10,14 +10,18 @@ use PlusQuePro\DesignSystem\Heading\HeadingComponent;
 // Création d'un heading de niveau 2 (par défaut, issu de l'éditeur Gutenberg)
 $heading = new HeadingComponent();
 $heading->addChild('Titre secondaire');
-echo $heading->render();
+echo $heading->getMarkup();
+```
+
+```php
+use PlusQuePro\DesignSystem\Heading\HeadingComponent;
 
 // Création d'un heading de niveau 1
 $heading = new HeadingComponent();
 $heading
     ->setLevel(1)
     ->addChild('Titre principal');
-echo $heading->render();
+echo $heading->getMarkup();
 ```
 
 ## API / Options
@@ -26,7 +30,7 @@ echo $heading->render();
 - `addClass(string $classname)` : Ajoute une ou plusieurs classes CSS à la balise `<hn>`.
 - `addAttribute(string $attribute, string $value)` : Ajoute un attribut HTML personnalisé à la balise `<hn>`.
 - `addDecorator(StyleDecorator $decorator)` : Ajoute un décorateur de style (avancé, voir documentation des décorateurs).
-- `addChild(string $child)` : Ajoute un contenu (texte ou composant enfant) au heading (hérité de `TokenComponent`).
+- `addChild(string $child)` : Ajoute un contenu (texte ou composant enfant) au heading (hérité de [`TokenComponentWithChildren`](../TokenComponentWithChildren.php)).
 - `getMarkup()` : Retourne le HTML du heading.
 
 ## Bonnes pratiques
