@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Summary;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class SummaryComponent extends TokenComponent
+class SummaryComponent extends TokenComponentWithChildren
 {
     public function getMarkup(): string
     {
