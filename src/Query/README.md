@@ -13,18 +13,6 @@ $query->addChild('<article>Article 2</article>');
 echo $query->getMarkup();
 ```
 
-// Exemple avec un composant enfant
-```php
-use PlusQuePro\DesignSystem\Query\QueryComponent;
-use PlusQuePro\DesignSystem\PostTerms\PostTermsComponent;
-
-$query = new QueryComponent();
-$postTerms = new PostTermsComponent();
-$postTerms->addChild('Catégorie : Actualités');
-$query->addChild($postTerms->getMarkup());
-echo $query->getMarkup();
-```
-
 ## API / Options
 - `addChild(string $html)` : Ajoute un enfant (HTML ou composant) au container de la requête.
 - `addClass(string $classname)` : Ajoute une ou plusieurs classes CSS au container.
