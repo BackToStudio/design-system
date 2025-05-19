@@ -2,9 +2,9 @@
 
 namespace PlusQuePro\DesignSystem\Video;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class VideoComponent extends TokenComponent
+class VideoComponent extends TokenComponentWithChildren
 {
     protected string $src = '';
     protected bool $playsInline = false;
