@@ -36,4 +36,4 @@ echo $image->getMarkup();
 
 ## Liens utiles
 - [Documentation sur la balise <img> (MDN)](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img)
-- [TokenComponent (héritage)](../TokenComponent.php) 
+- [`TokenComponent` (héritage)](../TokenComponent.php) 
