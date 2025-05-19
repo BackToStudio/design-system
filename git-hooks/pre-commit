@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Vérifie PSR-12 sur src/Link
+./vendor/bin/phpcs --standard=PSR12 src/Link
+if [ $? -ne 0 ]; then
+  echo "Erreur : Les règles PSR-12 ne sont pas respectées dans src/Link."
+  exit 1
+fi
+
+# Vérifie l'autoload PSR-4 et le composer.json
+composer dump-autoload -o
+composer validate --strict
+if [ $? -ne 0 ]; then
+  echo "Erreur : Problème avec l'autoload PSR-4 ou le composer.json."
+  exit 1
+fi
+
+exit 0 
