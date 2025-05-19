@@ -6,25 +6,25 @@ use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
 class HeadingComponent extends TokenComponentWithChildren
 {
-	private int $level = 2;
+    private int $level = 2;
 
-	public function getLevel(): int
-	{
-		return $this->level;
-	}
+    public function getLevel(): int
+    {
+        return $this->level;
+    }
 
-	public function setLevel(int $level): static
-	{
-		$this->level = $level;
+    public function setLevel(int $level): static
+    {
+        $this->level = $level;
 
-		return $this;
-	}
+        return $this;
+    }
 
-	public function getMarkup(): string
-	{
-		$this->setTagName('h' . $this->getLevel());
-		$this->addClass('wp-block-heading');
+    public function getMarkup(): string
+    {
+        $this->setTagName('h' . $this->getLevel());
+        $this->addClass('wp-block-heading');
 
-		return parent::getMarkup();
-	}
+        return parent::getMarkup();
+    }
 }

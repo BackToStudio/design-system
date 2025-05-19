@@ -6,27 +6,27 @@ use PlusQuePro\DesignSystem\StyleDecorator;
 
 class FlexDecorator implements StyleDecorator
 {
-	private string $direction = '';
+    private string $direction = '';
 
-	public function __construct(string $direction)
-	{
-		$this->direction = $direction;
-	}
+    public function __construct(string $direction)
+    {
+        $this->direction = $direction;
+    }
 
-	public function getClassName(): string
-	{
-		$flexAlignmentClasses = [
-			'horizontal' => 'flex-row',
-			'vertical' => 'flex-col',
-		];
+    public function getClassName(): string
+    {
+        $flexAlignmentClasses = [
+            'horizontal' => 'flex-row',
+            'vertical' => 'flex-col',
+        ];
 
-		$classNames = ['flex'];
+        $classNames = ['flex'];
 
-		// Applique le style de mise en page
-		if (array_key_exists($this->direction, $flexAlignmentClasses)) {
-			$classNames[] = $flexAlignmentClasses[$this->direction];
-		}
+        // Applique le style de mise en page
+        if (array_key_exists($this->direction, $flexAlignmentClasses)) {
+            $classNames[] = $flexAlignmentClasses[$this->direction];
+        }
 
-		return join(' ', $classNames);
-	}
+        return join(' ', $classNames);
+    }
 }

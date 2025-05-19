@@ -14,4 +14,4 @@ class TokenComponentWithChildren extends TokenComponent
 
         return '<' . $tagName . ' ' . $attributes . '>' . $children . '</' . $tagName . '>';
     }
-} 
+}

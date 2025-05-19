@@ -3,30 +3,31 @@
 namespace PlusQuePro\DesignSystem\Decorators;
 
 use PlusQuePro\DesignSystem\StyleDecorator;
+
 class ShadowDecorator implements StyleDecorator
 {
-	private string $shadow = '';
+    private string $shadow = '';
 
-	public function __construct(string $shadow)
-	{
-		$this->shadow = $shadow;
-	}
+    public function __construct(string $shadow)
+    {
+        $this->shadow = $shadow;
+    }
 
-	public function getClassName(): string
-	{
-		$shadowClasses = [
-			'var:preset|shadow|light' => 'shadow shadow-light',
-			'var:preset|shadow|medium' => 'shadow shadow-medium',
-			'var:preset|shadow|dark' => 'shadow shadow-dark',
-		];
+    public function getClassName(): string
+    {
+        $shadowClasses = [
+            'var:preset|shadow|light' => 'shadow shadow-light',
+            'var:preset|shadow|medium' => 'shadow shadow-medium',
+            'var:preset|shadow|dark' => 'shadow shadow-dark',
+        ];
 
-		if (
-			empty($this->shadow) ||
-			!array_key_exists($this->shadow, $shadowClasses)
-		) {
-			throw new \Exception('Invalid shadow value');
-		}
+        if (
+            empty($this->shadow) ||
+            !array_key_exists($this->shadow, $shadowClasses)
+        ) {
+            throw new \Exception('Invalid shadow value');
+        }
 
-		return $shadowClasses[$this->shadow];
-	}
+        return $shadowClasses[$this->shadow];
+    }
 }

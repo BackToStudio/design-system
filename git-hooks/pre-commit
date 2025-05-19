@@ -8,10 +8,14 @@ if [ $? -ne 0 ]; then
 fi
 
 # Vérifie l'autoload PSR-4 et le composer.json
-composer dump-autoload -o
-composer validate --strict
+composer dump-autoload -o > /tmp/composer-dump.log 2>&1
+composer validate --strict > /tmp/composer-validate.log 2>&1
+
 if [ $? -ne 0 ]; then
-  echo "Erreur : Problème avec l'autoload PSR-4 ou le composer.json."
+  echo "\033[0;31mErreur : Problème avec l'autoload PSR-4 ou le composer.json.\033[0m"
+  echo "\nDétail des erreurs détectées :"
+  grep -E "does not comply with psr-4 autoloading standard" /tmp/composer-dump.log
+  grep -E "error|warning" /tmp/composer-validate.log
   exit 1
 fi
 

@@ -6,28 +6,28 @@ use PlusQuePro\DesignSystem\StyleDecorator;
 
 class FontFamilyDecorator implements StyleDecorator
 {
-	private string $fontFamily = '';
+    private string $fontFamily = '';
 
-	public function __construct(string $fontFamily)
-	{
-		$this->fontFamily = $fontFamily;
-	}
+    public function __construct(string $fontFamily)
+    {
+        $this->fontFamily = $fontFamily;
+    }
 
-	public function getClassName(): string
-	{
-		$fontFamilyClasses = [
-			'inter' => 'font-inter',
-		];
+    public function getClassName(): string
+    {
+        $fontFamilyClasses = [
+            'inter' => 'font-inter',
+        ];
 
-		$className = '';
+        $className = '';
 
-		if (
-			!empty($this->fontFamily) &&
-			array_key_exists($this->fontFamily, $fontFamilyClasses)
-		) {
-			$className = $fontFamilyClasses[$this->fontFamily];
-		}
+        if (
+            !empty($this->fontFamily) &&
+            array_key_exists($this->fontFamily, $fontFamilyClasses)
+        ) {
+            $className = $fontFamilyClasses[$this->fontFamily];
+        }
 
-		return $className;
-	}
+        return $className;
+    }
 }

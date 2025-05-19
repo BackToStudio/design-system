@@ -6,10 +6,10 @@ use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
 class QueryComponent extends TokenComponentWithChildren
 {
-	public function getMarkup(): string
-	{
-		$this->addClass('wp-block-query');
+    public function getMarkup(): string
+    {
+        $this->addClass('wp-block-query');
 
-		return parent::getMarkup();
-	}
+        return parent::getMarkup();
+    }
 }

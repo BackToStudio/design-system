@@ -6,62 +6,62 @@ use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
 class AudioComponent extends TokenComponentWithChildren
 {
-	private string $src = '';
-	private bool $autoplay = false;
-	private bool $loop = false;
+    private string $src = '';
+    private bool $autoplay = false;
+    private bool $loop = false;
 
-	public function getSrc(): string
-	{
-		return $this->src;
-	}
+    public function getSrc(): string
+    {
+        return $this->src;
+    }
 
-	public function setSrc(string $src): self
-	{
-		$this->src = $src;
-		return $this;
-	}
+    public function setSrc(string $src): self
+    {
+        $this->src = $src;
+        return $this;
+    }
 
-	public function isAutoplay(): bool
-	{
-		return $this->autoplay;
-	}
+    public function isAutoplay(): bool
+    {
+        return $this->autoplay;
+    }
 
-	public function setAutoplay(bool $autoplay): self
-	{
-		$this->autoplay = $autoplay;
-		return $this;
-	}
+    public function setAutoplay(bool $autoplay): self
+    {
+        $this->autoplay = $autoplay;
+        return $this;
+    }
 
-	public function isLoop(): bool
-	{
-		return $this->loop;
-	}
+    public function isLoop(): bool
+    {
+        return $this->loop;
+    }
 
-	public function setLoop(bool $loop): self
-	{
-		$this->loop = $loop;
-		return $this;
-	}
+    public function setLoop(bool $loop): self
+    {
+        $this->loop = $loop;
+        return $this;
+    }
 
-	public function getMarkup(): string
-	{
-		$this->setTagName('audio');
+    public function getMarkup(): string
+    {
+        $this->setTagName('audio');
 
-		if (empty($this->getSrc())) {
-			return '';
-		}
+        if (empty($this->getSrc())) {
+            return '';
+        }
 
-		$this->addAttribute('src', $this->getSrc());
-		$this->addAttribute('controls', '');
+        $this->addAttribute('src', $this->getSrc());
+        $this->addAttribute('controls', '');
 
-		if ($this->isAutoplay()) {
-			$this->addAttribute('autoplay', '');
-		}
+        if ($this->isAutoplay()) {
+            $this->addAttribute('autoplay', '');
+        }
 
-		if ($this->isLoop()) {
-			$this->addAttribute('loop', '');
-		}
+        if ($this->isLoop()) {
+            $this->addAttribute('loop', '');
+        }
 
-		return parent::getMarkup();
-	}
+        return parent::getMarkup();
+    }
 }

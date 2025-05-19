@@ -12,11 +12,18 @@
     "phpstan/phpstan": "^2.1"
   },
   "scripts": {
+    "pre-commit": [
+      "phpcs --standard=PSR12 src/"
+    ],
+    "fix-cs": [
+      "phpcbf --standard=PSR12 src/"
+    ],
     "post-install-cmd": [
       "sh git-hooks/install-hooks.sh"
     ],
     "post-update-cmd": [
       "sh git-hooks/install-hooks.sh"
     ]
-  }
+  },
+  "license": "proprietary"
 }

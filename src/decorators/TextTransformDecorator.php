@@ -6,30 +6,30 @@ use PlusQuePro\DesignSystem\StyleDecorator;
 
 class TextTransformDecorator implements StyleDecorator
 {
-	private string $textTransform = '';
+    private string $textTransform = '';
 
-	public function __construct(string $textTransform)
-	{
-		$this->textTransform = $textTransform;
-	}
+    public function __construct(string $textTransform)
+    {
+        $this->textTransform = $textTransform;
+    }
 
-	public function getClassName(): string
-	{
-		$textTransformClasses = [
-			'uppercase' => 'uppercase',
-			'lowercase' => 'lowercase',
-			'capitalize' => 'capitalize',
-		];
+    public function getClassName(): string
+    {
+        $textTransformClasses = [
+            'uppercase' => 'uppercase',
+            'lowercase' => 'lowercase',
+            'capitalize' => 'capitalize',
+        ];
 
-		$className = '';
+        $className = '';
 
-		if (
-			!empty($this->textTransform) &&
-			array_key_exists($this->textTransform, $textTransformClasses)
-		) {
-			$className = $textTransformClasses[$this->textTransform];
-		}
+        if (
+            !empty($this->textTransform) &&
+            array_key_exists($this->textTransform, $textTransformClasses)
+        ) {
+            $className = $textTransformClasses[$this->textTransform];
+        }
 
-		return $className;
-	}
+        return $className;
+    }
 }

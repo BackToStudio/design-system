@@ -6,28 +6,28 @@ use PlusQuePro\DesignSystem\StyleDecorator;
 
 class VerticalAlignDecorator implements StyleDecorator
 {
-	private string $verticalAlign = '';
+    private string $verticalAlign = '';
 
-	public function __construct(string $verticalAlign)
-	{
-		$this->verticalAlign = $verticalAlign;
-	}
+    public function __construct(string $verticalAlign)
+    {
+        $this->verticalAlign = $verticalAlign;
+    }
 
-	public function getClassName(): string
-	{
-		$verticalAlignClasses = [
-			'top' => 'items-start',
-			'center' => 'items-center',
-			'bottom' => 'items-end',
-			'stretch' => 'items-stretch',
-		];
+    public function getClassName(): string
+    {
+        $verticalAlignClasses = [
+            'top' => 'items-start',
+            'center' => 'items-center',
+            'bottom' => 'items-end',
+            'stretch' => 'items-stretch',
+        ];
 
-		$className = '';
+        $className = '';
 
-		if (array_key_exists($this->verticalAlign, $verticalAlignClasses)) {
-			$className = $verticalAlignClasses[$this->verticalAlign];
-		}
+        if (array_key_exists($this->verticalAlign, $verticalAlignClasses)) {
+            $className = $verticalAlignClasses[$this->verticalAlign];
+        }
 
-		return $className;
-	}
+        return $className;
+    }
 }

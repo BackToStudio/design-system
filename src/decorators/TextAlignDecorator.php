@@ -6,30 +6,30 @@ use PlusQuePro\DesignSystem\StyleDecorator;
 
 class TextAlignDecorator implements StyleDecorator
 {
-	private string $textAlign = '';
+    private string $textAlign = '';
 
-	public function __construct(string $textAlign)
-	{
-		$this->textAlign = $textAlign;
-	}
+    public function __construct(string $textAlign)
+    {
+        $this->textAlign = $textAlign;
+    }
 
-	public function getClassName(): string
-	{
-		$textAlignClasses = [
-			'left' => 'text-left',
-			'center' => 'text-center',
-			'right' => 'text-right',
-		];
+    public function getClassName(): string
+    {
+        $textAlignClasses = [
+            'left' => 'text-left',
+            'center' => 'text-center',
+            'right' => 'text-right',
+        ];
 
-		$className = '';
+        $className = '';
 
-		if (
-			!empty($this->textAlign) &&
-			array_key_exists($this->textAlign, $textAlignClasses)
-		) {
-			$className = $textAlignClasses[$this->textAlign];
-		}
+        if (
+            !empty($this->textAlign) &&
+            array_key_exists($this->textAlign, $textAlignClasses)
+        ) {
+            $className = $textAlignClasses[$this->textAlign];
+        }
 
-		return $className;
-	}
+        return $className;
+    }
 }

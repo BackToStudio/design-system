@@ -6,10 +6,10 @@ use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
 class ParagraphComponent extends TokenComponentWithChildren
 {
-	public function getMarkup(): string
-	{
-		$this->setTagName('p');
+    public function getMarkup(): string
+    {
+        $this->setTagName('p');
 
-		return parent::getMarkup();
-	}
+        return parent::getMarkup();
+    }
 }

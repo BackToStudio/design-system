@@ -111,4 +111,20 @@ Le design system de Plus que pro vise à garantir la cohérence, l'efficacité e
 
 ---
 
+## Qualité du code & conventions PSR
+
+Ce projet respecte les standards de codage PSR (notamment PSR-12 et PSR-4 pour les namespaces). Un hook Git `pre-commit` est automatiquement installé lors de l'installation des dépendances (voir scripts Composer) :
+
+- Il vérifie que le code du dossier `src/` respecte les conventions PSR-12.
+- Il valide la configuration de l'autoload PSR-4 via Composer.
+- Si ces règles ne sont pas respectées, le commit est bloqué et un message d'erreur s'affiche.
+
+Pour installer ou réinstaller les hooks manuellement :
+
+```sh
+sh git-hooks/install-hooks.sh
+```
+
+---
+
 > Ce design system est en évolution. Merci de contribuer à son amélioration !
