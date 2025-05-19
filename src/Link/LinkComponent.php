@@ -46,7 +46,6 @@ class LinkComponent extends TokenComponentWithChildren
 	public function getMarkup(): string
 	{
 		$this->setTagName('a');
-		$this->addDecorator(new FocusDecorator());
 
 		if (!empty($this->href)) {
 			$this->addAttribute('href', $this->href);
