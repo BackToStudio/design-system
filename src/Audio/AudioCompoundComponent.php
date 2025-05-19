@@ -3,17 +3,17 @@
 namespace PlusQuePro\DesignSystem\Audio;
 
 use PlusQuePro\DesignSystem\TokenComponent;
-use PlusQuePro\DesignSystem\FigCaption\FigCaptionComponent;
+use PlusQuePro\DesignSystem\Figcaption\FigcaptionComponent;
 
 class AudioCompoundComponent extends TokenComponent
 {
 	private AudioComponent $audio;
-	private FigCaptionComponent $figCaption;
+	private FigcaptionComponent $figCaption;
 
 	public function __construct()
 	{
 		$this->audio = new AudioComponent();
-		$this->figCaption = new FigCaptionComponent();
+		$this->figCaption = new FigcaptionComponent();
 
 		$this->setTagName('figure');
 	}
@@ -29,14 +29,14 @@ class AudioCompoundComponent extends TokenComponent
 		return $this;
 	}
 
-	public function getFigCaptionComponent(): FigCaptionComponent
+	public function getFigcaptionComponent(): FigcaptionComponent
 	{
-		return $this->figCaption;
+		return $this->figcaption;
 	}
 
-	public function setFigCaptionComponent(FigCaptionComponent $figCaption): self
+	public function setFigcaptionComponent(FigcaptionComponent $figcaption): self
 	{
-		$this->figCaption = $figCaption;
+		$this->figcaption = $figcaption;
 		return $this;
 	}
 
@@ -48,8 +48,8 @@ class AudioCompoundComponent extends TokenComponent
 
 		$this->addChild($this->getAudioComponent()->getMarkup());
 
-		if (!empty($this->getFigCaptionComponent()->getChildren())) {
-			$this->addChild($this->getFigCaptionComponent()->getMarkup());
+		if (!empty($this->getFigcaptionComponent()->getChildren())) {
+			$this->addChild($this->getFigcaptionComponent()->getMarkup());
 		}
 
 		return parent::getMarkup();
