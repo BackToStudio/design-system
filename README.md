@@ -24,26 +24,26 @@ Le design system de Plus que pro vise à garantir la cohérence, l'efficacité e
 
 ## Composants de base
 
-- **Audio** : Composant audio intégré.
-- **Button** : Bouton principal, avec décorateurs et comportements personnalisables.
-- **Buttons** : Groupe de boutons.
-- **Figcaption** : Légende pour les figures.
-- **Figure** : Encapsule une image ou un média avec légende.
-- **Heading** : Titres de différents niveaux.
-- **Hr** : Séparateur horizontal.
-- **Image** : Gestion avancée des images.
-- **Link** : Lien hypertexte stylisé.
-- **List** : Listes ordonnées ou non.
-- **ListItem** : Élément de liste.
-- **Paragraph** : Paragraphe de texte.
-- **PostTemplate** : Modèle d'affichage pour un post.
-- **PostTerms** : Affichage des termes associés à un post.
-- **Query** : Gestion des requêtes de contenu.
-- **SocialLink** : Lien vers un réseau social.
-- **SocialLinks** : Groupe de liens sociaux.
-- **Summary** : Résumé ou sommaire de contenu.
-- **Table** : Tableaux de données.
-- **Video** : Composant vidéo intégré.
+- [**Audio**](src/Audio/) : Composant audio intégré.
+- [**Button**](src/Button/) : Bouton principal, avec décorateurs et comportements personnalisables.
+- [**Buttons**](src/Buttons/) : Groupe de boutons.
+- [**Figcaption**](src/Figcaption/) : Légende pour les figures.
+- [**Figure**](src/Figure/) : Encapsule une image ou un média avec légende.
+- [**Heading**](src/Heading/) : Titres de différents niveaux.
+- [**Hr**](src/Hr/) : Séparateur horizontal.
+- [**Image**](src/Image/) : Gestion avancée des images.
+- [**Link**](src/Link/) : Lien hypertexte stylisé.
+- [**List**](src/List/) : Listes ordonnées ou non.
+- [**ListItem**](src/ListItem/) : Élément de liste.
+- [**Paragraph**](src/Paragraph/) : Paragraphe de texte.
+- [**PostTemplate**](src/PostTemplate/) : Modèle d'affichage pour un post.
+- [**PostTerms**](src/PostTerms/) : Affichage des termes associés à un post.
+- [**Query**](src/Query/) : Gestion des requêtes de contenu.
+- [**SocialLink**](src/SocialLink/) : Lien vers un réseau social.
+- [**SocialLinks**](src/SocialLinks/) : Groupe de liens sociaux.
+- [**Summary**](src/Summary/) : Résumé ou sommaire de contenu.
+- [**Table**](src/Table/) : Tableaux de données.
+- [**Video**](src/Video/) : Composant vidéo intégré.
 
 ---
 
