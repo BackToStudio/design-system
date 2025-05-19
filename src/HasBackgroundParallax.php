@@ -4,19 +4,19 @@ namespace PlusQuePro\DesignSystem;
 
 trait HasBackgroundParallax
 {
-	private bool $parallax = false;
+    private bool $parallax = false;
 
-	/**
-	 * @param mixed $parallax
-	 */
+    /**
+     * @param mixed $parallax
+     */
 
-	public function setParallax(bool $parallax): void
-	{
-		$this->parallax = $parallax;
-	}
+    public function setParallax(bool $parallax): void
+    {
+        $this->parallax = $parallax;
+    }
 
-	public function hasParallax(): bool
-	{
-		return $this->parallax;
-	}
+    public function hasParallax(): bool
+    {
+        return $this->parallax;
+    }
 }
