@@ -23,6 +23,9 @@ echo $heading->render();
 ## API / Options
 - `setLevel(int $level)` : Définit le niveau du heading (1 à 6). Par défaut : 2.
 - `getLevel(): int` : Retourne le niveau actuel du heading.
+- `addClass(string $classname)` : Ajoute une ou plusieurs classes CSS à la balise `<hn>`.
+- `addAttribute(string $attribute, string $value)` : Ajoute un attribut HTML personnalisé à la balise `<hn>`.
+- `addDecorator(StyleDecorator $decorator)` : Ajoute un décorateur de style (avancé, voir documentation des décorateurs).
 - `addChild(string $child)` : Ajoute un contenu (texte ou composant enfant) au heading (hérité de `TokenComponent`).
 - `getMarkup()` : Retourne le HTML du heading.
 
