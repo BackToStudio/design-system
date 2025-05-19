@@ -2,11 +2,11 @@
 
 namespace PlusQuePro\DesignSystem\Gallery;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Figcaption\FigcaptionComponent;
 use PlusQuePro\DesignSystem\Image\ImageCompoundComponent;
 
-class GalleryCompoundComponent extends TokenComponent
+class GalleryCompoundComponent extends TokenComponentWithChildren
 {
 	private array $images = [];
 

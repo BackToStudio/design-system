@@ -2,10 +2,10 @@
 
 namespace PlusQuePro\DesignSystem\Audio;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Figcaption\FigcaptionComponent;
 
-class AudioCompoundComponent extends TokenComponent
+class AudioCompoundComponent extends TokenComponentWithChildren
 {
 	private AudioComponent $audio;
 	private FigcaptionComponent $figCaption;

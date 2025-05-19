@@ -2,13 +2,13 @@
 
 namespace PlusQuePro\DesignSystem\Image;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Figure\FigureComponent;
 use PlusQuePro\DesignSystem\Image\ImageComponent;
 use PlusQuePro\DesignSystem\Figcaption\FigcaptionComponent;
 use PlusQuePro\DesignSystem\Link\LinkComponent;
 
-class ImageCompoundComponent extends TokenComponent
+class ImageCompoundComponent extends TokenComponentWithChildren
 {
 	private FigureComponent $figure;
 	private ImageComponent $image;

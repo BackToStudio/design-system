@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Cover;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\HasBackgroundImage;
 use PlusQuePro\DesignSystem\HasBackgroundRepeated;
 use PlusQuePro\DesignSystem\HasBackgroundParallax;
@@ -11,7 +11,7 @@ use PlusQuePro\DesignSystem\Figure\FigureComponent;
 use PlusQuePro\DesignSystem\Video\VideoComponent;
 use PlusQuePro\DesignSystem\Image\ImageComponent;
 
-class CoverCompoundComponent extends TokenComponent
+class CoverCompoundComponent extends TokenComponentWithChildren
 {
 	use HasBackgroundImage;
 	use HasBackgroundRepeated;
@@ -20,27 +20,27 @@ class CoverCompoundComponent extends TokenComponent
 
 	private string $backgroundType = 'default';
 
-	private TokenComponent $backgroundDimContainer;
-	private TokenComponent $innerContainer;
+	private TokenComponentWithChildren $backgroundDimContainer;
+	private TokenComponentWithChildren $innerContainer;
 	private FigureComponent $imageContainer;
 	private VideoComponent $videoComponent;
 	private ImageComponent $imageComponent;
 
 	public function __construct()
 	{
-		$this->backgroundDimContainer = new TokenComponent();
-		$this->innerContainer = new TokenComponent();
+		$this->backgroundDimContainer = new TokenComponentWithChildren();
+		$this->innerContainer = new TokenComponentWithChildren();
 		$this->imageContainer = new FigureComponent();
 		$this->imageComponent = new ImageComponent();
 		$this->videoComponent = new VideoComponent();
 	}
 
-	public function getBackgroundDimContainer(): TokenComponent
+	public function getBackgroundDimContainer(): TokenComponentWithChildren
 	{
 		return $this->backgroundDimContainer;
 	}
 
-	public function getInnerContainer(): TokenComponent
+	public function getInnerContainer(): TokenComponentWithChildren
 	{
 		return $this->innerContainer;
 	}

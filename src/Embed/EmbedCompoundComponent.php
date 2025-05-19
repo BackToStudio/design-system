@@ -2,18 +2,18 @@
 
 namespace PlusQuePro\DesignSystem\Embed;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\TokenComponentWithChildren;
 
-class EmbedCompoundComponent extends TokenComponent
+class EmbedCompoundComponent extends TokenComponentWithChildren
 {
-	private TokenComponent $figcaptionComponent;
+	private TokenComponentWithChildren $figcaptionComponent;
 
 	public function __construct()
 	{
-		$this->figcaptionComponent = new TokenComponent();
+		$this->figcaptionComponent = new TokenComponentWithChildren();
 	}
 
-	public function getFigcaptionComponent(): TokenComponent
+	public function getFigcaptionComponent(): TokenComponentWithChildren
 	{
 		return $this->figcaptionComponent;
 	}
