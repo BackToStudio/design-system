@@ -2,9 +2,10 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Embed;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class EmbedCompoundComponent extends TokenComponentWithChildren
+class EmbedCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     private TokenComponentWithChildren $figcaptionComponent;
 

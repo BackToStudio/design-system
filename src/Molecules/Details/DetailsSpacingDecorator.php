@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Details;
+namespace PlusQuePro\DesignSystem\Molecules\Details;
 
 use PlusQuePro\DesignSystem\StyleDecorator;
 

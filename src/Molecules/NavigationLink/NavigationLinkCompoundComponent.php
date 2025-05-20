@@ -1,17 +1,18 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\NavigationLink;
+namespace PlusQuePro\DesignSystem\Molecules\NavigationLink;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Link\LinkComponent;
-use PlusQuePro\DesignSystem\Button\ButtonComponent;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
+use PlusQuePro\DesignSystem\Atoms\Buttons\ButtonsComponent;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class NavigationLinkCompoundComponent extends TokenComponentWithChildren
+class NavigationLinkCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
-    /** @var LinkComponent|ButtonComponent */
+    /** @var LinkComponent|ButtonsComponent */
     private $link;
 
-    /** @var LinkComponent|ButtonComponent */
+    /** @var LinkComponent|ButtonsComponent */
     private $clickableComponent;
 
     public function __construct()
@@ -20,7 +21,7 @@ class NavigationLinkCompoundComponent extends TokenComponentWithChildren
     }
 
     /**
-     * @return LinkComponent|ButtonComponent
+     * @return LinkComponent|ButtonsComponent
      */
     public function getClickableComponent()
     {
@@ -28,7 +29,7 @@ class NavigationLinkCompoundComponent extends TokenComponentWithChildren
     }
 
     /**
-     * @var LinkComponent|ButtonComponent $component
+     * @var LinkComponent|ButtonsComponent $component
      */
     public function setClickableComponent($component): self
     {

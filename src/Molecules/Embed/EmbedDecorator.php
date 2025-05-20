@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Embed;
+namespace PlusQuePro\DesignSystem\Molecules\Embed;
 
 use PlusQuePro\DesignSystem\StyleDecorator;
 

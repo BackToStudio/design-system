@@ -5,7 +5,7 @@ namespace PlusQuePro\DesignSystem\Molecules\Gallery;
 use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
 use PlusQuePro\DesignSystem\Atoms\Figure\FigureComponent;
-use PlusQuePro\DesignSystem\Molecules\ImageCompoundComponent;
+use PlusQuePro\DesignSystem\Molecules\Image\ImageCompoundComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
 class GalleryCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface

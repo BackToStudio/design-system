@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\MediaText;
+namespace PlusQuePro\DesignSystem\Molecules\MediaText;
 
 use PlusQuePro\DesignSystem\StyleDecorator;
 

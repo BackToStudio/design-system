@@ -1,11 +1,12 @@
 <?php
 
-namespace PQP\Components;
+namespace PlusQuePro\DesignSystem\Molecules\Details;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Summary\SummaryComponent;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use PlusQuePro\DesignSystem\Atoms\Summary\SummaryComponent;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
 
-class DetailsCompoundComponent extends TokenComponentWithChildren
+class DetailsCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     private SummaryComponent $summaryComponent;
     private TokenComponentWithChildren $contentComponent;

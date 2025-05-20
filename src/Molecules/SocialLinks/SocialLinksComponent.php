@@ -1,10 +1,11 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\SocialLinks;
+namespace PlusQuePro\DesignSystem\Molecules\SocialLinks;
 
-use PlusQuePro\DesignSystem\TokenComponent;
+use PlusQuePro\DesignSystem\Atoms\TokenComponent;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class SocialLinksComponent extends TokenComponent
+class SocialLinksComponent extends TokenComponent implements MoleculeInterface
 {
     public function getMarkup(): string
     {
