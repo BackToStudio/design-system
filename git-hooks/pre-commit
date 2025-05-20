@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Vérifie PSR-12 sur src/Link
-./vendor/bin/phpcs --standard=PSR12 src/Link
+./vendor/bin/phpcs --standard=PSR12 src/Atoms/Link
 if [ $? -ne 0 ]; then
-  echo "Erreur : Les règles PSR-12 ne sont pas respectées dans src/Link."
+  echo "Erreur : Les règles PSR-12 ne sont pas respectées dans src/Atoms/Link."
   exit 1
 fi
 
