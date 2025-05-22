@@ -31,38 +31,18 @@ class NavigationSubmenuCompoundComponent extends TokenComponent implements Molec
     public function getMarkup(): string
     {
         $this->setTagName('li');
-
-        $this->addClass('wp-block-navigation-item')->addAttribute(
-            '@click.outside',
-            'isSubmenuOpen = false'
-        );
-
-        $this->addClass('text-primary-950 lg:text-white');
-
+        $this->addClass('wp-block-navigation-item');
+        
         $this->getButton()
-            ->addClass('wp-block-navigation-submenu__toggle')
-            ->addAttribute('@click', 'isSubmenuOpen = !isSubmenuOpen')
-            ->addAttribute(':aria-expanded', 'isSubmenuOpen')
-            ->addAttribute('x-ref', 'button')
-            ->addAttribute('type', 'button');
-
-        $this->getButton()->addAttribute(
-            'x-bind:class',
-            'isSubmenuOpen ? "text-secondary-500 lg:text-primary-300 [&_svg]:rotate-180 [&_svg]:origin-center ' .
-            '[&_svg]:transition-transform [&_svg]:duration-300 [&_svg]:ease-in-out" : "[&_svg]:rotate-0 ' .
-            '[&_svg]:origin-center [&_svg]:transition-transform [&_svg]:duration-300 [&_svg]:ease-in-out"'
-        );
+            ->addClass('wp-block-navigation-submenu__toggle');
 
         $this->addChild($this->getButton()->getMarkup());
 
         if ($this->getSubmenu()->hasChildren()) {
             $this->getSubmenu()
                 ->setTagName('ul')
-                ->addClass('wp-block-navigation-submenu')
-                ->addAttribute(':aria-expanded', 'isSubmenuOpen')
-                ->addAttribute('x-cloak', '');
+                ->addClass('wp-block-navigation-submenu');
 
-            $this->getSubmenu()->addClass('[&_a]:w-full [&_a]:text-deep-800');
             $this->addChild($this->getSubmenu()->getMarkup());
         }
 
