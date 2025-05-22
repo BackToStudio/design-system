@@ -32,7 +32,7 @@ class NavigationSubmenuCompoundComponent extends TokenComponent implements Molec
     {
         $this->setTagName('li');
         $this->addClass('wp-block-navigation-item');
-        
+
         $this->getButton()
             ->addClass('wp-block-navigation-submenu__toggle');
 
