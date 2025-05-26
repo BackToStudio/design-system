@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Figure;
+namespace PlusQuePro\DesignSystem\Atoms\Figure;
 
 use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
 

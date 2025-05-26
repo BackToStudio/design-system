@@ -1,11 +1,13 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules;
+namespace PlusQuePro\DesignSystem\Molecules\Audio;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Figcaption\FigcaptionComponent;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
+use PlusQuePro\DesignSystem\Atoms\Audio\AudioComponent;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class AudioCompoundComponent extends TokenComponentWithChildren
+class AudioCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     private AudioComponent $audio;
     private FigcaptionComponent $figCaption;

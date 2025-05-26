@@ -2,10 +2,11 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\MediaText;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Image\ImageComponent;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class MediaTextCompoundComponent extends TokenComponentWithChildren
+class MediaTextCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     private ImageComponent $imageComponent;
     private TokenComponentWithChildren $mediaContainer;

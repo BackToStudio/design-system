@@ -1,10 +1,11 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\PostTemplate;
+namespace PlusQuePro\DesignSystem\Molecules\PostTemplate;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class PostTemplateComponent extends TokenComponentWithChildren
+class PostTemplateComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     public function getMarkup(): string
     {

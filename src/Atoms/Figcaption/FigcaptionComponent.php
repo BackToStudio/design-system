@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Figcaption;
+namespace PlusQuePro\DesignSystem\Atoms\Figcaption;
 
 use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
 

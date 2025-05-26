@@ -2,9 +2,10 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Table;
 
-use PlusQuePro\DesignSystem\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
-class TableComponent extends TokenComponentWithChildren
+class TableComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     private TokenComponentWithChildren $table;
     private TokenComponentWithChildren $thead;
