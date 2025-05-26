@@ -11,22 +11,24 @@ Les composants atomiques sont organisés en sous-dossiers individuels, chacun co
 
 ## Composants disponibles
 
-- **Audio** : Lecture de fichiers audio avec contrôles personnalisables
-- **Button** : Boutons d'action avec différents thèmes et comportements
-- **Figcaption** : Légendes pour les figures et médias
-- **Figure** : Conteneur pour les médias et leurs légendes
-- **Heading** : Titres avec différents niveaux et styles
-- **Hr** : Séparateurs horizontaux thématiques
-- **Image** : Images avec gestion du responsive et alignements
-- **Link** : Liens hypertextes avec styles variés
-- **List** : Listes ordonnées et non-ordonnées
-- **ListItem** : Éléments de liste
-- **Paragraph** : Blocs de texte avec styles typographiques
-- **PostTerms** : Affichage des termes associés aux articles
-- **Query** : Composant de requête pour l'affichage dynamique
-- **SocialLink** : Liens vers les réseaux sociaux
-- **Summary** : Résumés de contenu
-- **Video** : Lecture de vidéos avec contrôles personnalisés
+- [Audio](./Audio/) : Lecture de fichiers audio avec contrôles personnalisables
+- [Button](./Button/) : Boutons d'action avec différents thèmes et comportements
+- [Buttons](./Buttons/) : Groupe de boutons
+- [Figcaption](./Figcaption/) : Légendes pour les figures et médias
+- [Figure](./Figure/) : Conteneur pour les médias et leurs légendes
+- [Heading](./Heading/) : Titres avec différents niveaux et styles
+- [Hr](./Hr/) : Séparateurs horizontaux thématiques
+- [Image](./Image/) : Images avec gestion du responsive et alignements
+- [Link](./Link/) : Liens hypertextes avec styles variés
+- [List](./List/) : Listes ordonnées et non-ordonnées
+- [ListItem](./ListItem/) : Éléments de liste
+- [Paragraph](./Paragraph/) : Blocs de texte avec styles typographiques
+- [PostTerms](./PostTerms/) : Affichage des termes associés aux articles
+- [Query](./Query/) : Composant de requête pour l'affichage dynamique
+- [SocialLink](./SocialLink/) : Liens vers les réseaux sociaux
+- [Summary](./Summary/) : Résumés de contenu
+- [Token](./Token/) : Composants techniques génériques (balises HTML)
+- [Video](./Video/) : Lecture de vidéos avec contrôles personnalisés
 
 ## Utilisation des décorateurs
 
@@ -36,6 +38,7 @@ Exemple avec un bouton :
 ```php
 $button = new Button();
 $button->addDecorator(new ButtonThemeDecorator());
+echo $button->getMarkup();
 ```
 
 ## Bonnes pratiques
