@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Decorators;
+namespace PlusQuePro\DesignSystem\Foundations\Color;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 

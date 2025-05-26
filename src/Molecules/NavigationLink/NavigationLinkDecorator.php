@@ -3,7 +3,7 @@
 namespace PlusQuePro\DesignSystem\Molecules\NavigationLink;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
-use PlusQuePro\DesignSystem\Decorators\BorderColorDecorator;
+use PlusQuePro\DesignSystem\Foundation\Color\BorderColorDecorator;
 
 class NavigationLinkDecorator implements StyleDecorator
 {
