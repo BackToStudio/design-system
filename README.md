@@ -13,41 +13,69 @@ Le design system de Plus que pro vise à garantir la cohérence, l'efficacité e
 
 ## Sommaire
 
-1. [Composants de base](#composants-de-base)
-2. [Décorateurs & Utilitaires](#décorateurs--utilitaires)
-3. [Compositions & Patterns](#compositions--patterns)
-4. [Processus de contribution](#processus-de-contribution)
-5. [Outils et frameworks](#outils-et-frameworks)
-6. [Ressources](#ressources)
+1. [Atomic Design : Atomes & Molécules](#atomic-design--atomes--molécules)
+2. [Exemples de composants Atomes](#exemples-de-composants-atomes)
+3. [Exemples de composants Molécules](#exemples-de-composants-molécules)
+4. [Compositions & Patterns](#compositions--patterns)
+5. [Décorateurs & Utilitaires](#décorateurs--utilitaires)
+6. [Processus de contribution](#processus-de-contribution)
+7. [Outils et frameworks](#outils-et-frameworks)
+8. [Ressources](#ressources)
+9. [Qualité du code & conventions PSR](#qualité-du-code--conventions-psr)
 
 ---
 
-## Composants de base
+## Atomic Design : Atomes & Molécules
 
-- [**Audio**](src/Audio/) : Composant audio intégré.
-- [**Button**](src/Button/) : Bouton principal, avec décorateurs et comportements personnalisables.
-- [**Buttons**](src/Buttons/) : Groupe de boutons.
-- [**Figcaption**](src/Figcaption/) : Légende pour les figures.
-- [**Figure**](src/Figure/) : Encapsule une image ou un média avec légende.
-- [**Heading**](src/Heading/) : Titres de différents niveaux.
-- [**Hr**](src/Hr/) : Séparateur horizontal.
-- [**Image**](src/Image/) : Gestion avancée des images.
-- [**Link**](src/Link/) : Lien hypertexte stylisé.
-- [**List**](src/List/) : Listes ordonnées ou non.
-- [**ListItem**](src/ListItem/) : Élément de liste.
-- [**Paragraph**](src/Paragraph/) : Paragraphe de texte.
-- [**PostTemplate**](src/PostTemplate/) : Modèle d'affichage pour un post.
-- [**PostTerms**](src/PostTerms/) : Affichage des termes associés à un post.
-- [**Query**](src/Query/) : Gestion des requêtes de contenu.
-- [**SocialLink**](src/SocialLink/) : Lien vers un réseau social.
-- [**SocialLinks**](src/SocialLinks/) : Groupe de liens sociaux.
-- [**Summary**](src/Summary/) : Résumé ou sommaire de contenu.
-- [**Table**](src/Table/) : Tableaux de données.
-- [**Video**](src/Video/) : Composant vidéo intégré.
+Ce design system s'inspire de la méthodologie Atomic Design de Brad Frost :
+
+- **Atomes** : Les plus petits dénominateurs communs de l'interface (ex : bouton, image, titre, etc.). Ils sont autonomes et servent de base à la construction de composants plus complexes.
+- **Molécules** : Assemblages d'atomes qui forment des groupes fonctionnels cohérents (ex : bloc média + texte, groupe de boutons, carte, etc.).
+
+Pour chaque catégorie, seuls quelques exemples sont listés ci-dessous. Pour la liste exhaustive et la documentation détaillée, consultez les dossiers :
+- [Tous les atomes](src/Atoms/)
+- [Toutes les molécules](src/Molecules/)
 
 ---
+
+## Exemples de composants Atomes
+
+Voici quelques atomes représentatifs du design system. Retrouvez la liste complète dans le dossier [src/Atoms/](src/Atoms/).
+
+- [**Button**](src/Atoms/Button/) : Bouton principal, avec décorateurs et comportements personnalisables.
+- [**Image**](src/Atoms/Image/) : Gestion avancée des images.
+- [**Heading**](src/Atoms/Heading/) : Titres de différents niveaux.
+- [**Link**](src/Atoms/Link/) : Lien hypertexte stylisé.
+- [**Paragraph**](src/Atoms/Paragraph/) : Paragraphe de texte.
+- ...
+
+[Voir tous les atomes →](src/Atoms/)
+
+---
+
+## Exemples de composants Molécules
+
+Les molécules sont des assemblages d'atomes pour des usages plus riches. Retrouvez la liste complète dans le dossier [src/Molecules/](src/Molecules/).
+
+- [**MediaText**](src/Molecules/MediaText/) : Bloc média + texte.
+- [**Gallery**](src/Molecules/Gallery/) : Galerie d'images.
+- [**Table**](src/Molecules/Table/) : Tableaux de données.
+- [**Cover**](src/Molecules/Cover/) : Bloc image de couverture.
+- **Header** : En-tête de page (à venir ou à compléter)
+- **Footer** : Pied de page (à venir ou à compléter)
+- **Slider** : Carrousel/slider (à venir)
+- **Onglet** : Système d'onglets (à venir)
+- **Colonnes** : Mise en page en colonnes (à venir)
+- **Breadcrumb** : Fil d'Ariane (à venir)
+- **Pagination** : Pagination (à venir)
+- ...
+
+[Voir toutes les molécules →](src/Molecules/)
+
 
 ## Décorateurs & Utilitaires
+
+Les décorateurs et utilitaires permettent d'enrichir, personnaliser ou étendre le style et le comportement des composants sans dupliquer le code. Ils offrent une approche modulaire pour appliquer des styles, des effets ou des comportements récurrents sur plusieurs composants du design system.
 
 - **Espacement** :
   - Marges : `MarginTop`, `MarginBottom`, `MarginLeft`, `MarginRight`
@@ -69,20 +97,9 @@ Le design system de Plus que pro vise à garantir la cohérence, l'efficacité e
 
 ---
 
-## Compositions & Patterns
-
-- **Header** : En-tête de page (à venir ou à compléter)
-- **Footer** : Pied de page (à venir ou à compléter)
-- **Media-Text** : Bloc média + texte (à venir)
-- **Slider** : Carrousel/slider (à venir)
-- **Onglet** : Système d'onglets (à venir)
-- **Colonnes** : Mise en page en colonnes (à venir)
-- **Breadcrumb** : Fil d'Ariane (à venir)
-- **Pagination** : Pagination (à venir)
-
----
-
 ## Processus de contribution
+
+Pour garantir la qualité et la cohérence du design system, suivez ce workflow :
 
 1. **Workflow de validation** :
    - Design → Développement → Documentation
@@ -113,13 +130,13 @@ Le design system de Plus que pro vise à garantir la cohérence, l'efficacité e
 
 ## Qualité du code & conventions PSR
 
-Ce projet respecte les standards de codage PSR (notamment PSR-12 et PSR-4 pour les namespaces). Un hook Git `pre-commit` est automatiquement installé lors de l'installation des dépendances (voir scripts Composer) :
+Ce projet respecte les standards de codage PSR (notamment PSR-12 et PSR-4 pour les namespaces). Un hook Git `pre-commit` est automatiquement installé lors de l'installation des dépendances (voir scripts Composer) :
 
 - Il vérifie que le code du dossier `src/` respecte les conventions PSR-12.
 - Il valide la configuration de l'autoload PSR-4 via Composer.
 - Si ces règles ne sont pas respectées, le commit est bloqué et un message d'erreur s'affiche.
 
-Pour installer ou réinstaller les hooks manuellement :
+Pour installer ou réinstaller les hooks manuellement :
 
 ```sh
 sh git-hooks/install-hooks.sh
