@@ -2,6 +2,8 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+
 class BorderBottomWidthDecorator implements StyleDecorator
 {
     private string $width = '';
@@ -22,8 +24,8 @@ class BorderBottomWidthDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->width) &&
-            array_key_exists($this->width, $borderBottomWidthClasses)
+            !empty($this->width)
+            && array_key_exists($this->width, $borderBottomWidthClasses)
         ) {
             $className = $borderBottomWidthClasses[$this->width];
         }

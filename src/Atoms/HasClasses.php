@@ -26,11 +26,14 @@ trait HasClasses
     public function removeClass(string $classnameToRemove): static
     {
         if ($this->hasClass($classnameToRemove)) {
-            $this->classes = array_filter($this->classes, function ($classname) use (
-                $classnameToRemove
-            ) {
-                return $classname !== $classnameToRemove;
-            });
+            $this->classes = array_filter(
+                $this->classes,
+                function ($classname) use (
+                    $classnameToRemove
+                ) {
+                    return $classname !== $classnameToRemove;
+                }
+            );
         }
 
         return $this;

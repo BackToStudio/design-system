@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class PaddingTopDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class PaddingTopDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->padding) &&
-            array_key_exists($this->padding, $spacingTopClasses)
+            !empty($this->padding)
+            && array_key_exists($this->padding, $spacingTopClasses)
         ) {
             $className = $spacingTopClasses[$this->padding];
         }

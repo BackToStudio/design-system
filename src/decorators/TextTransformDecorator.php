@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class TextTransformDecorator implements StyleDecorator
 {
@@ -24,8 +24,8 @@ class TextTransformDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->textTransform) &&
-            array_key_exists($this->textTransform, $textTransformClasses)
+            !empty($this->textTransform)
+            && array_key_exists($this->textTransform, $textTransformClasses)
         ) {
             $className = $textTransformClasses[$this->textTransform];
         }

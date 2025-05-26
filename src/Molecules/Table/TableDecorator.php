@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Table;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class TableDecorator implements StyleDecorator
 {

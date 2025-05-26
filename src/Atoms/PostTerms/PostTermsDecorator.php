@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\PostTerms;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class PostTermsDecorator implements StyleDecorator
 {

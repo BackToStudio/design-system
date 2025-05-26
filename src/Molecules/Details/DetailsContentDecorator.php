@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Details;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 use PlusQuePro\DesignSystem\Decorators\PaddingLeftDecorator;
 use PlusQuePro\DesignSystem\Decorators\PaddingRightDecorator;
 use PlusQuePro\DesignSystem\Decorators\PaddingBottomDecorator;

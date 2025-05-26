@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\PostTemplate;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class TypeDecorator implements StyleDecorator
 {

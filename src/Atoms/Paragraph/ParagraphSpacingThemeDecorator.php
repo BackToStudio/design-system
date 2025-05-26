@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Paragraph;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class ParagraphSpacingThemeDecorator implements StyleDecorator
 {

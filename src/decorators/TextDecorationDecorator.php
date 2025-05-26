@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class TextDecorationDecorator implements StyleDecorator
 {
@@ -23,8 +23,8 @@ class TextDecorationDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->textDecoration) &&
-            array_key_exists($this->textDecoration, $textDecorationClasses)
+            !empty($this->textDecoration)
+            && array_key_exists($this->textDecoration, $textDecorationClasses)
         ) {
             $className = $textDecorationClasses[$this->textDecoration];
         }

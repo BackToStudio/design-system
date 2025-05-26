@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Embed;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class EmbedDecorator implements StyleDecorator
 {

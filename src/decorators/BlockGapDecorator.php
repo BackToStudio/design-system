@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class BlockGapDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class BlockGapDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->blockGap) &&
-            array_key_exists($this->blockGap, $blockGapClasses)
+            !empty($this->blockGap)
+            && array_key_exists($this->blockGap, $blockGapClasses)
         ) {
             $className = $blockGapClasses[$this->blockGap];
         }

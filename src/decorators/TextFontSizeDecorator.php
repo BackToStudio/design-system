@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class TextFontSizeDecorator implements StyleDecorator
 {
@@ -31,8 +31,8 @@ class TextFontSizeDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->fontSize) &&
-            array_key_exists($this->fontSize, $fontSizeClasses)
+            !empty($this->fontSize)
+            && array_key_exists($this->fontSize, $fontSizeClasses)
         ) {
             $className = $fontSizeClasses[$this->fontSize];
         }

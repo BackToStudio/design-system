@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class TextColorDecorator implements StyleDecorator
 {
@@ -69,8 +69,8 @@ class TextColorDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->textColor) &&
-            array_key_exists($this->textColor, $textColorClasses)
+            !empty($this->textColor)
+            && array_key_exists($this->textColor, $textColorClasses)
         ) {
             $className = $textColorClasses[$this->textColor];
             $className .= ' has-text-color';

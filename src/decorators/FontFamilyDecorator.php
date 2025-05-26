@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class FontFamilyDecorator implements StyleDecorator
 {
@@ -22,8 +22,8 @@ class FontFamilyDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->fontFamily) &&
-            array_key_exists($this->fontFamily, $fontFamilyClasses)
+            !empty($this->fontFamily)
+            && array_key_exists($this->fontFamily, $fontFamilyClasses)
         ) {
             $className = $fontFamilyClasses[$this->fontFamily];
         }

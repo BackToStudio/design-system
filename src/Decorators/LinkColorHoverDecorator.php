@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class LinkColorHoverDecorator implements StyleDecorator
 {
@@ -71,8 +71,8 @@ class LinkColorHoverDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->linkColorHover) &&
-            array_key_exists($this->linkColorHover, $linkColorHoverClasses)
+            !empty($this->linkColorHover)
+            && array_key_exists($this->linkColorHover, $linkColorHoverClasses)
         ) {
             $className = $linkColorHoverClasses[$this->linkColorHover];
         }

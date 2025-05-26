@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Details;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class DetailsBehaviourDecorator implements StyleDecorator
 {

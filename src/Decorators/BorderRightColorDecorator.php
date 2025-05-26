@@ -2,6 +2,8 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+
 class BorderRightColorDecorator implements StyleDecorator
 {
     private string $color = '';
@@ -23,8 +25,8 @@ class BorderRightColorDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->color) &&
-            array_key_exists($this->color, $borderRightColorClasses)
+            !empty($this->color)
+            && array_key_exists($this->color, $borderRightColorClasses)
         ) {
             $className = $borderRightColorClasses[$this->color];
         }

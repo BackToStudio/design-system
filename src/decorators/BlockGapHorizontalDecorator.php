@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class BlockGapHorizontalDecorator implements StyleDecorator
 {
@@ -31,8 +31,8 @@ class BlockGapHorizontalDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->blockGapHorizontal) &&
-            array_key_exists($this->blockGapHorizontal, $blockGapHorizontalClasses)
+            !empty($this->blockGapHorizontal)
+            && array_key_exists($this->blockGapHorizontal, $blockGapHorizontalClasses)
         ) {
             $className = $blockGapHorizontalClasses[$this->blockGapHorizontal];
         }

@@ -1,0 +1,53 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Règle Cursor : Documentation des composants dans `src/`
+
+## Objectif
+Pour chaque composant situé à la racine du dossier [`src`](mdc:src), il doit exister un fichier `README.md` à l'intérieur du dossier du composant. Ce fichier a pour but d'améliorer la developer experience en fournissant une documentation opérationnelle, claire et directement exploitable par les développeurs.
+
+## Contenu attendu du `README.md`
+- **Présentation du composant** : Brève description de son rôle et de ses cas d'usage principaux.
+- **Exemples d'utilisation** : Fournir des exemples simples, concrets, prêts à copier-coller ou à adapter.
+- **API/Props** : Lister les propriétés/options principales si pertinent.
+- **Bonnes pratiques** : Conseils ou pièges à éviter lors de l'utilisation du composant.
+- **Liens utiles** : Vers d'autres composants, documentation externe, ou guides internes.
+
+## Exemple de structure de `README.md`
+```md
+# NomDuComposant
+
+## Description
+Courte description du composant et de son utilité.
+
+## Exemple d'utilisation
+```php
+// Exemple minimal d'intégration
+$component = new NomDuComposant([
+    // options
+]);
+echo $component->render();
+```
+
+## API / Options
+- `option1` : Description
+- `option2` : Description
+
+## Bonnes pratiques
+- Conseil 1
+- Conseil 2
+
+## Liens utiles
+- [Documentation principale](mdc:lien)
+- [Autre composant lié](mdc:lien)
+```
+
+## Application
+- Cette règle s'applique à tous les dossiers de composants à la racine de [`src`](mdc:src) (ex : [`Button`](mdc:src/Button), [`Image`](mdc:src/Image), etc.).
+- Les fichiers utilitaires ou helpers à la racine de `src` ne sont pas concernés.
+- Le but est de rendre chaque composant immédiatement compréhensible et utilisable par un développeur découvrant le projet.
+
+---
+*Cette règle n'est pas versionnée et sert de guide personnel pour la documentation des composants.*

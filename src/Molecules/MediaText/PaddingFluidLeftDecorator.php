@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\MediaText;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class PaddingFluidLeftDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class PaddingFluidLeftDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->padding) &&
-            array_key_exists($this->padding, $spacingLeftClasses)
+            !empty($this->padding)
+            && array_key_exists($this->padding, $spacingLeftClasses)
         ) {
             $className = $spacingLeftClasses[$this->padding];
         }

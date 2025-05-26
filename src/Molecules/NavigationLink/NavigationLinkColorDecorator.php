@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\NavigationLink;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class NavigationLinkColorDecorator implements StyleDecorator
 {
@@ -67,8 +67,8 @@ class NavigationLinkColorDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->linkColor) &&
-            array_key_exists($this->linkColor, $linkColorClasses)
+            !empty($this->linkColor)
+            && array_key_exists($this->linkColor, $linkColorClasses)
         ) {
             $className = $linkColorClasses[$this->linkColor];
             $className .= ' has-text-color';

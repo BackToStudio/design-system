@@ -2,6 +2,8 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+
 class ColumnsSpacingDecorator implements StyleDecorator
 {
     public function getClassName(): string

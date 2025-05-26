@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class PaddingLeftDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class PaddingLeftDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->padding) &&
-            array_key_exists($this->padding, $spacingLeftClasses)
+            !empty($this->padding)
+            && array_key_exists($this->padding, $spacingLeftClasses)
         ) {
             $className = $spacingLeftClasses[$this->padding];
         }

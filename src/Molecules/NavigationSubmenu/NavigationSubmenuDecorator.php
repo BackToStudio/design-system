@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\NavigationSubmenu;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class NavigationSubmenuDecorator implements StyleDecorator
 {

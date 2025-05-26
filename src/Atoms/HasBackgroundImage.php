@@ -9,7 +9,6 @@ trait HasBackgroundImage
     /**
      * @param string $url
      */
-
     public function setBackgroundImage(string $url): static
     {
         $this->backgroundImage = $url;

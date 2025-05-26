@@ -9,10 +9,14 @@ use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
 class NavigationLinkCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
-    /** @var LinkComponent|ButtonsComponent */
+    /**
+     * @var LinkComponent|ButtonsComponent
+     */
     private $link;
 
-    /** @var LinkComponent|ButtonsComponent */
+    /**
+     * @var LinkComponent|ButtonsComponent
+     */
     private $clickableComponent;
 
     public function __construct()

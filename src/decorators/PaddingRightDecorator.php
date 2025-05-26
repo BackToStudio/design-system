@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class PaddingRightDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class PaddingRightDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->padding) &&
-            array_key_exists($this->padding, $spacingRightClasses)
+            !empty($this->padding)
+            && array_key_exists($this->padding, $spacingRightClasses)
         ) {
             $className = $spacingRightClasses[$this->padding];
         }

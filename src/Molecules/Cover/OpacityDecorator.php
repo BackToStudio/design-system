@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Cover;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class OpacityDecorator implements StyleDecorator
 {

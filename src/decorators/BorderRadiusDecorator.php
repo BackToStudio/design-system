@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class BorderRadiusDecorator implements StyleDecorator
 {
@@ -34,8 +34,8 @@ class BorderRadiusDecorator implements StyleDecorator
 
         // Applique le rayon de bordure
         if (
-            !empty($this->borderRadius) &&
-            array_key_exists($this->borderRadius, $borderRadiusClasses)
+            !empty($this->borderRadius)
+            && array_key_exists($this->borderRadius, $borderRadiusClasses)
         ) {
             $className = $borderRadiusClasses[$this->borderRadius];
         }

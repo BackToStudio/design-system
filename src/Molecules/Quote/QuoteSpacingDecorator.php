@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Quote;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class QuoteSpacingDecorator implements StyleDecorator
 {

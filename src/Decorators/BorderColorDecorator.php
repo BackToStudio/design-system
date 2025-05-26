@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class BorderColorDecorator implements StyleDecorator
 {
@@ -75,8 +75,8 @@ class BorderColorDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->borderColor) &&
-            array_key_exists($this->borderColor, $borderColorClasses)
+            !empty($this->borderColor)
+            && array_key_exists($this->borderColor, $borderColorClasses)
         ) {
             $className = $borderColorClasses[$this->borderColor];
         }

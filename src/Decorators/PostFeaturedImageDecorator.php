@@ -2,6 +2,8 @@
 
 namespace PQP\Decorators;
 
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+
 class PostFeaturedImageDecorator implements StyleDecorator
 {
     public function getClassName(): string

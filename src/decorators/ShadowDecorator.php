@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class ShadowDecorator implements StyleDecorator
 {
@@ -22,8 +22,8 @@ class ShadowDecorator implements StyleDecorator
         ];
 
         if (
-            empty($this->shadow) ||
-            !array_key_exists($this->shadow, $shadowClasses)
+            empty($this->shadow)
+            || !array_key_exists($this->shadow, $shadowClasses)
         ) {
             throw new \Exception('Invalid shadow value');
         }

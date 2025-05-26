@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\MediaText;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class PaddingFluidBottomDecorator implements StyleDecorator
 {
@@ -31,8 +31,8 @@ class PaddingFluidBottomDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->padding) &&
-            array_key_exists($this->padding, $spacingsMediaText)
+            !empty($this->padding)
+            && array_key_exists($this->padding, $spacingsMediaText)
         ) {
             $className = $spacingsMediaText[$this->padding];
         }

@@ -2,6 +2,8 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+
 class ColumnsGapThemeDecorator implements StyleDecorator
 {
     private int $columnCount;

@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Gallery;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class ColumnDecorator implements StyleDecorator
 {

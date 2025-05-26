@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Heading;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class HeadingSpacingDecorator implements StyleDecorator
 {

@@ -23,8 +23,8 @@ class FloatAlignDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->textAlign) &&
-            array_key_exists($this->textAlign, $textAlignClasses)
+            !empty($this->textAlign)
+            && array_key_exists($this->textAlign, $textAlignClasses)
         ) {
             $className = $textAlignClasses[$this->textAlign];
         }

@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class MarginRightDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class MarginRightDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->margin) &&
-            array_key_exists($this->margin, $spacingRightClasses)
+            !empty($this->margin)
+            && array_key_exists($this->margin, $spacingRightClasses)
         ) {
             $className = $spacingRightClasses[$this->margin];
         }

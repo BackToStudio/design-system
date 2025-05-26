@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Summary;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class SummaryBehaviourDecorator implements StyleDecorator
 {

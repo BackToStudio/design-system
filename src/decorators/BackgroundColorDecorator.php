@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class BackgroundColorDecorator implements StyleDecorator
 {
@@ -71,8 +71,8 @@ class BackgroundColorDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->backgroundColor) &&
-            array_key_exists($this->backgroundColor, $backgroundColorClasses)
+            !empty($this->backgroundColor)
+            && array_key_exists($this->backgroundColor, $backgroundColorClasses)
         ) {
             $className = $backgroundColorClasses[$this->backgroundColor];
             $className .= ' has-background-color';

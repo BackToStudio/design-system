@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\List;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class ListThemeDecorator implements StyleDecorator
 {

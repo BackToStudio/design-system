@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Buttons;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class ButtonsSpacingThemeDecorator implements StyleDecorator
 {

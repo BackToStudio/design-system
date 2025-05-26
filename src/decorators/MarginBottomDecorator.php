@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class MarginBottomDecorator implements StyleDecorator
 {
@@ -32,8 +32,8 @@ class MarginBottomDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->margin) &&
-            array_key_exists($this->margin, $spacingBottomClasses)
+            !empty($this->margin)
+            && array_key_exists($this->margin, $spacingBottomClasses)
         ) {
             $className = $spacingBottomClasses[$this->margin];
         }

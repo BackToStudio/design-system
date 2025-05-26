@@ -2,6 +2,8 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+
 class AlignDecorator implements StyleDecorator
 {
     private string $alignment = 'default';
@@ -22,8 +24,8 @@ class AlignDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->alignment) &&
-            array_key_exists($this->alignment, $alignmentClasses)
+            !empty($this->alignment)
+            && array_key_exists($this->alignment, $alignmentClasses)
         ) {
             $className = $alignmentClasses[$this->alignment];
         }

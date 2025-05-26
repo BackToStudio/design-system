@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Decorators;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
 class NavigationOverlayColorDecorator implements StyleDecorator
 {
@@ -67,8 +67,8 @@ class NavigationOverlayColorDecorator implements StyleDecorator
         $className = '';
 
         if (
-            !empty($this->overlayColor) &&
-            array_key_exists($this->overlayColor, $overlayColorClasses)
+            !empty($this->overlayColor)
+            && array_key_exists($this->overlayColor, $overlayColorClasses)
         ) {
             $className = $overlayColorClasses[$this->overlayColor];
         }

@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Summary;
 
-use PlusQuePro\DesignSystem\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 use PlusQuePro\DesignSystem\Decorators\BlockGapDecorator;
 use PlusQuePro\DesignSystem\Decorators\TextFontSizeDecorator;
 use PlusQuePro\DesignSystem\Decorators\FontWeightDecorator;

@@ -9,7 +9,6 @@ trait HasBackgroundParallax
     /**
      * @param mixed $parallax
      */
-
     public function setParallax(bool $parallax): void
     {
         $this->parallax = $parallax;
