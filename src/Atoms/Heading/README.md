@@ -41,4 +41,4 @@ echo $heading->getMarkup();
 
 ## Liens utiles
 - [Documentation sur les balises de titre HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Heading_Elements)
-<!-- - [TokenComponent (si documentation disponible)](lien_vers_TokenComponent)  -->
+- [TokenComponentWithChildren (héritage)](../TokenComponentWithChildren.php) 
