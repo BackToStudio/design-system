@@ -1,6 +1,12 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms;
+namespace PlusQuePro\DesignSystem\Atoms\Token;
+
+use PlusQuePro\DesignSystem\Atoms\Token\HasClasses;
+use PlusQuePro\DesignSystem\Atoms\Token\HasAttributes;
+use PlusQuePro\DesignSystem\Atoms\Token\HasCustomStyles;
+use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use PlusQuePro\DesignSystem\Atoms\AtomComponentInterface;
 
 class TokenComponent implements AtomComponentInterface
 {

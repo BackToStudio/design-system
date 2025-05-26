@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Image;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponent;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
 
 class ImageComponent extends TokenComponent
 {

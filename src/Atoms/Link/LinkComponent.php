@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Link;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class LinkComponent extends TokenComponentWithChildren
 {

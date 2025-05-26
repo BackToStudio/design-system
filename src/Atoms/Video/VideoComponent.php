@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Video;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class VideoComponent extends TokenComponentWithChildren
 {

@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Audio;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class AudioComponent extends TokenComponentWithChildren
 {

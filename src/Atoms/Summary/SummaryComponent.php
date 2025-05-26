@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Summary;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class SummaryComponent extends TokenComponentWithChildren
 {

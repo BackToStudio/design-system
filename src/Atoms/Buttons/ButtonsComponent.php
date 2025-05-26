@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Buttons;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class ButtonsComponent extends TokenComponentWithChildren
 {

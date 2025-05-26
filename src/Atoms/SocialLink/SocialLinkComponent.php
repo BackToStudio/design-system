@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\SocialLink;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
 use PlusQuePro\DesignSystem\Icon\IconComponent;
 

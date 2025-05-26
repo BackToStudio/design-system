@@ -10,7 +10,7 @@ use PQP\Components\LinkComponent;
 // Création d'un lien
 $link = new LinkComponent();
 $link->setHref('https://www.plus-que-pro.fr');
-$link->setTitle('Visiter Plus que PRO');
+$link->setTitle('Visiter Plus que pro');
 $link->setTarget('_blank');
 $link->addClass('btn btn-primary');
 $link->addChild('Découvrir Plus que pro');

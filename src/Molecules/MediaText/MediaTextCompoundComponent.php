@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\MediaText;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 

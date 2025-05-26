@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Heading;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class HeadingComponent extends TokenComponentWithChildren
 {

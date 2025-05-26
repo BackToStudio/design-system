@@ -1,7 +1,10 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms;
+namespace PlusQuePro\DesignSystem\Atoms\Token;
 
+/**
+ * @deprecated use StyleDecorator instead
+ */
 trait HasCustomStyles
 {
     private array $styles = [];

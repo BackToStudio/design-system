@@ -4,7 +4,7 @@ namespace PlusQuePro\DesignSystem\Molecules\Details;
 
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 use PlusQuePro\DesignSystem\Atoms\Summary\SummaryComponent;
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class DetailsCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

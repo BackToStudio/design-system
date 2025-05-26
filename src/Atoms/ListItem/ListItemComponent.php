@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\ListItem;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class ListItemComponent extends TokenComponentWithChildren
 {

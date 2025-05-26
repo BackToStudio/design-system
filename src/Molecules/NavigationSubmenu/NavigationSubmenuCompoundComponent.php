@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\NavigationSubmenu;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponent;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 use PlusQuePro\DesignSystem\Atoms\List\ListComponent;
 use PlusQuePro\DesignSystem\Atoms\Button\ButtonComponent;

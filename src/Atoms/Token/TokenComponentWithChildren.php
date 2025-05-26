@@ -1,6 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms;
+namespace PlusQuePro\DesignSystem\Atoms\Token;
+
+use PlusQuePro\DesignSystem\Atoms\Token\HasChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
 
 class TokenComponentWithChildren extends TokenComponent
 {

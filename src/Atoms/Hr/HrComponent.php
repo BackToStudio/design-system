@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Hr;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponent;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
 
 class HrComponent extends TokenComponent
 {

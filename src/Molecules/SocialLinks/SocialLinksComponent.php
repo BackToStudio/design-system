@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\SocialLinks;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponent;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
 class SocialLinksComponent extends TokenComponent implements MoleculeInterface

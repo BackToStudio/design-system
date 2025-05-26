@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\PostTerms;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class PostTermsComponent extends TokenComponentWithChildren
 {

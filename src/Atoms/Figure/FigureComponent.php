@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Atoms\Figure;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class FigureComponent extends TokenComponentWithChildren
 {

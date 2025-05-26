@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms;
+namespace PlusQuePro\DesignSystem\Atoms\Token;
 
 trait HasBackgroundImage
 {

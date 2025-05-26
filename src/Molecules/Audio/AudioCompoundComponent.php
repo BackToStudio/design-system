@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Audio;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
 use PlusQuePro\DesignSystem\Atoms\Audio\AudioComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
