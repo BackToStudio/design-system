@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Image;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Figure\FigureComponent;
 use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
 use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;

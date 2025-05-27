@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\NavigationLink;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
 use PlusQuePro\DesignSystem\Atoms\Buttons\ButtonsComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
