@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\PostTemplate;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
 class PostTemplateComponent extends TokenComponentWithChildren implements MoleculeInterface

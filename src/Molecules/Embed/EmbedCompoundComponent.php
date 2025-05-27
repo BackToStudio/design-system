@@ -2,7 +2,7 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\Embed;
 
-use PlusQuePro\DesignSystem\Atoms\TokenComponentWithChildren;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 
 class EmbedCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
