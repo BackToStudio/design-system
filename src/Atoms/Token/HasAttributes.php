@@ -23,6 +23,11 @@ trait HasAttributes
         return $this->attributes;
     }
 
+    public function getAttribute(string $attributeName): ?string
+    {
+        return $this->attributes[$attributeName] ?? null;
+    }
+
     protected function clearAttributes(): static
     {
         $this->attributes = [];
