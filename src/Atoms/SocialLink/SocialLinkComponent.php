@@ -4,7 +4,7 @@ namespace PlusQuePro\DesignSystem\Atoms\SocialLink;
 
 use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
-use PlusQuePro\DesignSystem\Icon\IconComponent;
+use PlusQuePro\DesignSystem\Atoms\Icon\IconComponent;
 
 class SocialLinkComponent extends TokenComponentWithChildren
 {
