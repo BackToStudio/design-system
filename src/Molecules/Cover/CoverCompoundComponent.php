@@ -75,7 +75,7 @@ class CoverCompoundComponent extends TokenComponentWithChildren implements Molec
 
     public function getMarkup(): string
     {
-        $this->addClass('wp-block-cover');
+        $this->addClass('wp-block-cover relative');
 
         $this->backgroundDimContainer->addClass(
             'wp-block-cover__background has-background-dim absolute inset-0 z-0'
