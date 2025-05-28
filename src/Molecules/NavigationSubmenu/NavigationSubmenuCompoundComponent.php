@@ -2,12 +2,12 @@
 
 namespace PlusQuePro\DesignSystem\Molecules\NavigationSubmenu;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
+use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
 use PlusQuePro\DesignSystem\Atoms\List\ListComponent;
 use PlusQuePro\DesignSystem\Atoms\Button\ButtonComponent;
 
-class NavigationSubmenuCompoundComponent extends TokenComponent implements MoleculeInterface
+class NavigationSubmenuCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {
     private ListComponent $submenu;
     private ButtonComponent $button;
