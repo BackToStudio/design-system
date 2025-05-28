@@ -3,11 +3,11 @@
 namespace PlusQuePro\DesignSystem\Molecules\Cover;
 
 use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\HasBackgroundImage;
-use PlusQuePro\DesignSystem\Atoms\HasBackgroundRepeated;
-use PlusQuePro\DesignSystem\Atoms\HasBackgroundParallax;
-use PlusQuePro\DesignSystem\Atoms\HasOpacity;
-use PlusQuePro\DesignSystem\Atoms\FigureComponent;
+use PlusQuePro\DesignSystem\Atoms\Token\HasBackgroundImage;
+use PlusQuePro\DesignSystem\Atoms\Token\HasBackgroundRepeated;
+use PlusQuePro\DesignSystem\Atoms\Token\HasBackgroundParallax;
+use PlusQuePro\DesignSystem\Atoms\Token\HasOpacity;
+use PlusQuePro\DesignSystem\Atoms\Figure\FigureComponent;
 use PlusQuePro\DesignSystem\Atoms\Video\VideoComponent;
 use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
 use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
