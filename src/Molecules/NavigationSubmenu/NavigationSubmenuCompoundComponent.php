@@ -38,7 +38,7 @@ class NavigationSubmenuCompoundComponent extends TokenComponentWithChildren impl
 
         $this->addChild($this->getButton()->getMarkup());
 
-        if ($this->getSubmenu()->getChildren()) {
+        if ($this->getSubmenu()->hasChildren()) {
             $this->getSubmenu()
                 ->setTagName('ul')
                 ->addClass('wp-block-navigation-submenu');

@@ -6,6 +6,11 @@ trait HasChildren
 {
     private array $children = [];
 
+    public function hasChildren(): bool
+	{
+		return !empty($this->children);
+	}
+
     public function addChild(string $html): static
     {
         $this->children[] = $html;
