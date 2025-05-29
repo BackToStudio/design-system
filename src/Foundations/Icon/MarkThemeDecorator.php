@@ -3,7 +3,7 @@
 namespace PlusQuePro\DesignSystem\Foundations\Icon;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
-use PlusQuePro\DesignSystem\Foundation\Effect\BorderRadiusDecorator;
+use PlusQuePro\DesignSystem\Foundations\Effect\BorderRadiusDecorator;
 
 class MarkThemeDecorator implements StyleDecorator
 {

@@ -3,9 +3,9 @@
 namespace PlusQuePro\DesignSystem\Molecules\Details;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingLeftDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingRightDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingBottomDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingLeftDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingRightDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingBottomDecorator;
 
 class DetailsContentDecorator implements StyleDecorator
 {

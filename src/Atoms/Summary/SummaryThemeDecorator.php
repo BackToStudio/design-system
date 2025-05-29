@@ -3,13 +3,13 @@
 namespace PlusQuePro\DesignSystem\Summary;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\BlockGapDecorator;
-use PlusQuePro\DesignSystem\Foundation\Typography\TextFontSizeDecorator;
-use PlusQuePro\DesignSystem\Foundation\Typography\FontWeightDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingTopDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingBottomDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingLeftDecorator;
-use PlusQuePro\DesignSystem\Foundation\Spacing\PaddingRightDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\BlockGapDecorator;
+use PlusQuePro\DesignSystem\Foundations\Typography\TextFontSizeDecorator;
+use PlusQuePro\DesignSystem\Foundations\Typography\FontWeightDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingTopDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingBottomDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingLeftDecorator;
+use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingRightDecorator;
 
 class SummaryThemeDecorator implements StyleDecorator
 {
