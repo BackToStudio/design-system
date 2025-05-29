@@ -1,10 +1,10 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Cover;
+namespace PlusQuePro\DesignSystem\Foundations\Layout;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
-class HorizontalAlignCoverDecorator implements StyleDecorator
+class HorizontalAlignDecorator implements StyleDecorator
 {
     private string $contentJustify = '';
 
