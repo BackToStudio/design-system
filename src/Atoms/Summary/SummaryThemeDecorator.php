@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Summary;
+namespace PlusQuePro\DesignSystem\Atoms\Summary;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 use PlusQuePro\DesignSystem\Foundations\Spacing\BlockGapDecorator;
