@@ -1,6 +1,6 @@
 <?php
 
-namespace PQP\Decorators;
+namespace PlusQuePro\DesignSystem\Molecules\PostTemplate;
 
 use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
 
