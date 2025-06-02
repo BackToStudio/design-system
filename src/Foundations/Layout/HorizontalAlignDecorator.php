@@ -17,9 +17,9 @@ class HorizontalAlignDecorator implements StyleDecorator
     {
         $flexContentClasses = [
             'left' => 'justify-start',
-            'center' => 'justify-center',
-            'right' => 'justify-end',
-            'space-between' => 'justify-between',
+			'center' => 'items-center justify-center',
+			'right' => 'items-end justify-end',
+			'space-between' => 'justify-between',
         ];
 
         return $flexContentClasses[$this->contentJustify] ?? '';
