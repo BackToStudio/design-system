@@ -17,6 +17,7 @@ class PaddingFluidTopDecorator implements StyleDecorator
     {
         // mobile: pt-s, desktop: pt-m
         $spacingsMediaText = [
+            'var:preset|spacing|2xs' => 'pt-2xs',
             'var:preset|spacing|xs' => '~pt-2xs/xs',
             'var:preset|spacing|s' => '~pt-xs/s',
             'var:preset|spacing|m' => '~pt-s/m',

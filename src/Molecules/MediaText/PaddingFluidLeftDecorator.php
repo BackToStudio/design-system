@@ -16,17 +16,16 @@ class PaddingFluidLeftDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $spacingLeftClasses = [
-            'var:preset|spacing|zero' => 'pl-0',
             'var:preset|spacing|2xs' => 'pl-2xs',
-            'var:preset|spacing|xs' => 'pl-xs',
-            'var:preset|spacing|s' => 'pl-s',
-            'var:preset|spacing|m' => 'pl-m',
-            'var:preset|spacing|l' => 'pl-l',
-            'var:preset|spacing|xl' => 'pl-xl',
-            'var:preset|spacing|2xl' => 'pl-2xl',
-            'var:preset|spacing|3xl' => 'pl-3xl',
-            'var:preset|spacing|4xl' => 'pl-4xl',
-            'var:preset|spacing|5xl' => 'pl-5xl',
+            'var:preset|spacing|xs' => '~pl-2xs/xs',
+			'var:preset|spacing|s' => '~pl-xs/s',
+			'var:preset|spacing|m' => '~pl-s/m',
+			'var:preset|spacing|l' => '~pl-m/l',
+			'var:preset|spacing|xl' => '~pl-l/xl',
+			'var:preset|spacing|2xl' => '~pl-xl/2xl',
+			'var:preset|spacing|3xl' => '~pl-2xl/3xl',
+			'var:preset|spacing|4xl' => '~pl-3xl/4xl',
+			'var:preset|spacing|5xl' => '~pl-4xl/5xl',
         ];
 
         $className = '';
