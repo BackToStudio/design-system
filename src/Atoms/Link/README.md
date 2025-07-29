@@ -9,11 +9,11 @@ use PQP\Components\LinkComponent;
 
 // Création d'un lien
 $link = new LinkComponent();
-$link->setHref('https://www.plus-que-pro.fr');
-$link->setTitle('Visiter Plus que pro');
+$link->setHref('https://www.mon-lien.fr');
+$link->setTitle('Visiter mon site');
 $link->setTarget('_blank');
 $link->addClass('btn btn-primary');
-$link->addChild('Découvrir Plus que pro');
+$link->addChild('Découvrir mon site');
 echo $link->getMarkup();
 ```
 

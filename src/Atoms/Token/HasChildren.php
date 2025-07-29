@@ -7,9 +7,9 @@ trait HasChildren
     private array $children = [];
 
     public function hasChildren(): bool
-	{
-		return !empty($this->children);
-	}
+    {
+        return !empty($this->children);
+    }
 
     public function addChild(string $html): static
     {

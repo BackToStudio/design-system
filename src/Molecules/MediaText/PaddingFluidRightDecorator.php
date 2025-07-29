@@ -18,14 +18,14 @@ class PaddingFluidRightDecorator implements StyleDecorator
         $spacingRightClasses = [
             'var:preset|spacing|2xs' => 'pr-2xs',
             'var:preset|spacing|xs' => '~pr-2xs/xs',
-			'var:preset|spacing|s' => '~pr-xs/s',
-			'var:preset|spacing|m' => '~pr-s/m',
-			'var:preset|spacing|l' => '~pr-m/l',
-			'var:preset|spacing|xl' => '~pr-l/xl',
-			'var:preset|spacing|2xl' => '~pr-xl/2xl',
-			'var:preset|spacing|3xl' => '~pr-2xl/3xl',
-			'var:preset|spacing|4xl' => '~pr-3xl/4xl',
-			'var:preset|spacing|5xl' => '~pr-4xl/5xl',
+            'var:preset|spacing|s' => '~pr-xs/s',
+            'var:preset|spacing|m' => '~pr-s/m',
+            'var:preset|spacing|l' => '~pr-m/l',
+            'var:preset|spacing|xl' => '~pr-l/xl',
+            'var:preset|spacing|2xl' => '~pr-xl/2xl',
+            'var:preset|spacing|3xl' => '~pr-2xl/3xl',
+            'var:preset|spacing|4xl' => '~pr-3xl/4xl',
+            'var:preset|spacing|5xl' => '~pr-4xl/5xl',
         ];
 
         $className = '';
