@@ -1,8 +1,8 @@
-# Plus que pro – Design System
+# BackTo – Design System
 
 ## Objectifs
 
-Le design system de Plus que pro vise à garantir la cohérence, l'efficacité et la qualité des interfaces utilisateur à travers tous les produits digitaux de l'entreprise. Il doit :
+Le design system de BackTo vise à garantir la cohérence, l'efficacité et la qualité des interfaces utilisateur à travers tous les produits digitaux de l'entreprise. Il doit :
 
 1. Uniformiser l'expérience utilisateur sur toutes les plateformes.
 2. Améliorer la collaboration entre designers et développeurs.
@@ -131,7 +131,7 @@ Pour garantir la qualité et la cohérence du design system, suivez ce workflow�
 - **FAQ** : À compléter pour les utilisateurs internes.
 - **Liens utiles** :
   - [Maquettes Figma](https://www.figma.com/design/wYu3iUpoq6BB3BNj2GOF8W/PQP---Design-System---Sites)
-  - [Dépôt Git principal](https://github.com/backto/design-system)
+  - [Dépôt Git principal](https://github.com/BackToStudio/design-system)
 
 ---
 
