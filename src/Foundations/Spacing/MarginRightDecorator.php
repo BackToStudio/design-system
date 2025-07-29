@@ -16,17 +16,18 @@ class MarginRightDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $spacingRightClasses = [
-            'var:preset|spacing|zero' => 'mr-0',
-            'var:preset|spacing|2xs' => 'mr-2xs',
-            'var:preset|spacing|xs' => 'mr-xs',
-            'var:preset|spacing|s' => 'mr-s',
-            'var:preset|spacing|m' => 'mr-m',
-            'var:preset|spacing|l' => 'mr-l',
-            'var:preset|spacing|xl' => 'mr-xl',
-            'var:preset|spacing|2xl' => 'mr-2xl',
-            'var:preset|spacing|3xl' => 'mr-3xl',
-            'var:preset|spacing|4xl' => 'mr-4xl',
-            'var:preset|spacing|5xl' => 'mr-5xl',
+            'var:preset|spacing|01-none' => 'mr-0',
+            'var:preset|spacing|02-2xs' => 'mr-2xs',
+            'var:preset|spacing|03-xs' => 'mr-xs',
+            'var:preset|spacing|04-s' => 'mr-s',
+            'var:preset|spacing|05-m' => 'mr-m',
+            'var:preset|spacing|06-l' => 'mr-l',
+            'var:preset|spacing|07-xl' => 'mr-xl',
+            'var:preset|spacing|08-2xl' => 'mr-2xl',
+            'var:preset|spacing|09-3xl' => 'mr-3xl',
+            'var:preset|spacing|10-4xl' => 'mr-4xl',
+            'var:preset|spacing|11-5xl' => 'mr-5xl',
+            'var:preset|spacing|12-global-padding' => 'mr-6xl',
         ];
 
         $className = '';

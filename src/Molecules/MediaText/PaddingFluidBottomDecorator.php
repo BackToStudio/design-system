@@ -17,16 +17,17 @@ class PaddingFluidBottomDecorator implements StyleDecorator
     {
         // mobile: pb-s, desktop: pb-m
         $spacingsMediaText = [
-            'var:preset|spacing|2xs' => 'pb-2xs',
-            'var:preset|spacing|xs' => '~pb-2xs/xs',
-            'var:preset|spacing|s' => '~pb-xs/s',
-            'var:preset|spacing|m' => '~pb-s/m',
-            'var:preset|spacing|l' => '~pb-m/l',
-            'var:preset|spacing|xl' => '~pb-l/xl',
-            'var:preset|spacing|2xl' => '~pb-xl/2xl',
-            'var:preset|spacing|3xl' => '~pb-2xl/3xl',
-            'var:preset|spacing|4xl' => '~pb-3xl/4xl',
-            'var:preset|spacing|5xl' => '~pb-4xl/5xl',
+            'var:preset|spacing|01-none' => 'pb-0',
+            'var:preset|spacing|02-2xs' => 'pb-2xs',
+            'var:preset|spacing|03-xs' => '~pb-2xs/xs',
+            'var:preset|spacing|04-s' => '~pb-xs/s',
+            'var:preset|spacing|05-m' => '~pb-s/m',
+            'var:preset|spacing|06-l' => '~pb-m/l',
+            'var:preset|spacing|07-xl' => '~pb-l/xl',
+            'var:preset|spacing|08-2xl' => '~pb-xl/2xl',
+            'var:preset|spacing|09-3xl' => '~pb-2xl/3xl',
+            'var:preset|spacing|10-4xl' => '~pb-3xl/4xl',
+            'var:preset|spacing|11-5xl' => '~pb-4xl/5xl',
         ];
 
         $className = '';

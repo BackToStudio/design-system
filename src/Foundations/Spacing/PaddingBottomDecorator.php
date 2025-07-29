@@ -16,17 +16,18 @@ class PaddingBottomDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $spacingBottomClasses = [
-            'var:preset|spacing|zero' => 'pb-0',
-            'var:preset|spacing|2xs' => 'pb-2xs',
-            'var:preset|spacing|xs' => 'pb-xs',
-            'var:preset|spacing|s' => 'pb-s',
-            'var:preset|spacing|m' => 'pb-m',
-            'var:preset|spacing|l' => 'pb-l',
-            'var:preset|spacing|xl' => 'pb-xl',
-            'var:preset|spacing|2xl' => 'pb-2xl',
-            'var:preset|spacing|3xl' => 'pb-3xl',
-            'var:preset|spacing|4xl' => 'pb-4xl',
-            'var:preset|spacing|5xl' => 'pb-5xl',
+            'var:preset|spacing|01-none' => 'pb-0',
+            'var:preset|spacing|02-2xs' => 'pb-2xs',
+            'var:preset|spacing|03-xs' => 'pb-xs',
+            'var:preset|spacing|04-s' => 'pb-s',
+            'var:preset|spacing|05-m' => 'pb-m',
+            'var:preset|spacing|06-l' => 'pb-l',
+            'var:preset|spacing|07-xl' => 'pb-xl',
+            'var:preset|spacing|08-2xl' => 'pb-2xl',
+            'var:preset|spacing|09-3xl' => 'pb-3xl',
+            'var:preset|spacing|10-4xl' => 'pb-4xl',
+            'var:preset|spacing|11-5xl' => 'pb-5xl',
+            'var:preset|spacing|12-global-padding' => 'pb-6xl',
         ];
 
         $className = '';
