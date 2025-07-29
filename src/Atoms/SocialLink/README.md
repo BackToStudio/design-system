@@ -9,7 +9,7 @@ use BackTo\DesignSystem\SocialLink\SocialLinkComponent;
 
 $socialLink = new SocialLinkComponent();
 $socialLink->setService('facebook'); // facebook, linkedin, youtube
-$socialLink->setHref('https://facebook.com/plusquepro');
+$socialLink->setHref('https://facebook.com/backto');
 echo $socialLink->getMarkup();
 ```
 
@@ -19,9 +19,9 @@ use BackTo\DesignSystem\SocialLink\SocialLinkComponent;
 
 $links = [];
 foreach ([
-    ['service' => 'facebook', 'url' => 'https://facebook.com/plusquepro'],
-    ['service' => 'linkedin', 'url' => 'https://linkedin.com/company/plusquepro'],
-    ['service' => 'youtube', 'url' => 'https://youtube.com/plusquepro'],
+    ['service' => 'facebook', 'url' => 'https://facebook.com/backto'],
+    ['service' => 'linkedin', 'url' => 'https://linkedin.com/company/backto'],
+    ['service' => 'youtube', 'url' => 'https://youtube.com/backto'],
 ] as $data) {
     $link = new SocialLinkComponent();
     $link->setService($data['service']);

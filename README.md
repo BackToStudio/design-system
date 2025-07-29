@@ -131,7 +131,7 @@ Pour garantir la qualité et la cohérence du design system, suivez ce workflow�
 - **FAQ** : À compléter pour les utilisateurs internes.
 - **Liens utiles** :
   - [Maquettes Figma](https://www.figma.com/design/wYu3iUpoq6BB3BNj2GOF8W/PQP---Design-System---Sites)
-  - [Dépôt Git principal](https://gitlab.webcd.fr/packages/design-system)
+  - [Dépôt Git principal](https://github.com/backto/design-system)
 
 ---
 

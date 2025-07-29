@@ -12,11 +12,11 @@ $socialLinks = new SocialLinksComponent();
 
 $facebook = new SocialLinkComponent();
 $facebook->setService('facebook');
-$facebook->setHref('https://facebook.com/plusquepro');
+$facebook->setHref('https://facebook.com/backto');
 
 $linkedin = new SocialLinkComponent();
 $linkedin->setService('linkedin');
-$linkedin->setHref('https://linkedin.com/company/plusquepro');
+$linkedin->setHref('https://linkedin.com/company/backto');
 
 $socialLinks->addChild($facebook->getMarkup());
 $socialLinks->addChild($linkedin->getMarkup());
