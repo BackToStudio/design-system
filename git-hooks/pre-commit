@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Vérifie PSR-12 sur src/Link
-./vendor/bin/phpcs --standard=PSR12 src/
+# Vérifie PSR-12 sur src/ (en excluant les fichiers d'icônes qui contiennent des SVG longs)
+./vendor/bin/phpcs --standard=PSR12 --ignore=src/Atoms/Icons/ src/
 if [ $? -ne 0 ]; then
   echo "Erreur : Les règles PSR-12 ne sont pas respectées dans src/."
   exit 1

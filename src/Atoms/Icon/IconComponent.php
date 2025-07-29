@@ -57,7 +57,8 @@ class IconComponent extends TokenComponent
         if (!array_key_exists($this->getIcon(), $iconComponents)) {
             throw new Exception(
                 sprintf(
-                    'The icon %s does not exist in IconComponent. If you want to use a new icon, please add this icon in <code>IconComponent</code>',
+                    'The icon %s does not exist in IconComponent. ' .
+                    'If you want to use a new icon, please add this icon in <code>IconComponent</code>',
                     $this->getIcon()
                 )
             );
