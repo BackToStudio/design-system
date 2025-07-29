@@ -1,9 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Summary;
+namespace BackTo\DesignSystem\Atoms\Summary;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Icon\IconComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Icon\IconComponent;
 
 class SummaryComponent extends TokenComponentWithChildren
 {

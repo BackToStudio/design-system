@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Gallery;
+namespace BackTo\DesignSystem\Molecules\Gallery;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class ColumnDecorator implements StyleDecorator
 {

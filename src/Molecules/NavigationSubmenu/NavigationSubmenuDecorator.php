@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\NavigationSubmenu;
+namespace BackTo\DesignSystem\Molecules\NavigationSubmenu;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class NavigationSubmenuDecorator implements StyleDecorator
 {

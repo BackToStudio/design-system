@@ -24,7 +24,7 @@ Les décorateurs permettent d'ajouter dynamiquement des classes CSS prédéfinie
 ### Exemple avec décorateur
 ```php
 use PQP\Components\ImageComponent;
-use PlusQuePro\DesignSystem\Atoms\Image\FloatAlignDecorator;
+use BackTo\DesignSystem\Atoms\Image\FloatAlignDecorator;
 
 $image = new ImageComponent();
 $image->setSrc('chemin/vers/image.jpg');

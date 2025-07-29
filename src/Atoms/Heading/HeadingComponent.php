@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Heading;
+namespace BackTo\DesignSystem\Atoms\Heading;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class HeadingComponent extends TokenComponentWithChildren
 {

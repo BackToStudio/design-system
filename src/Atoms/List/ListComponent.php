@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\List;
+namespace BackTo\DesignSystem\Atoms\List;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class ListComponent extends TokenComponentWithChildren
 {

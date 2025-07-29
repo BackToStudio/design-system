@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\PostTerms;
+namespace BackTo\DesignSystem\Atoms\PostTerms;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class PostTermsDecorator implements StyleDecorator
 {

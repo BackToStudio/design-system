@@ -1,11 +1,11 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\NavigationLink;
+namespace BackTo\DesignSystem\Molecules\NavigationLink;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
-use PlusQuePro\DesignSystem\Atoms\Buttons\ButtonsComponent;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Link\LinkComponent;
+use BackTo\DesignSystem\Atoms\Buttons\ButtonsComponent;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class NavigationLinkCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

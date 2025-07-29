@@ -1,15 +1,15 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Summary;
+namespace BackTo\DesignSystem\Atoms\Summary;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
-use PlusQuePro\DesignSystem\Foundations\Spacing\BlockGapDecorator;
-use PlusQuePro\DesignSystem\Foundations\Typography\TextFontSizeDecorator;
-use PlusQuePro\DesignSystem\Foundations\Typography\FontWeightDecorator;
-use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingTopDecorator;
-use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingBottomDecorator;
-use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingLeftDecorator;
-use PlusQuePro\DesignSystem\Foundations\Spacing\PaddingRightDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Foundations\Spacing\BlockGapDecorator;
+use BackTo\DesignSystem\Foundations\Typography\TextFontSizeDecorator;
+use BackTo\DesignSystem\Foundations\Typography\FontWeightDecorator;
+use BackTo\DesignSystem\Foundations\Spacing\PaddingTopDecorator;
+use BackTo\DesignSystem\Foundations\Spacing\PaddingBottomDecorator;
+use BackTo\DesignSystem\Foundations\Spacing\PaddingLeftDecorator;
+use BackTo\DesignSystem\Foundations\Spacing\PaddingRightDecorator;
 
 class SummaryThemeDecorator implements StyleDecorator
 {

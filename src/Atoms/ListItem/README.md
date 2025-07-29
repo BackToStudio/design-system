@@ -5,7 +5,7 @@ Composant représentant un élément de liste HTML (`<li>`), à utiliser exclusi
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\ListItem\ListItemComponent;
+use BackTo\DesignSystem\ListItem\ListItemComponent;
 
 $item = new ListItemComponent();
 $item->addChild('Contenu de l\'item');
@@ -14,8 +14,8 @@ echo $item->getMarkup();
 
 // Utilisation dans une liste
 ```php
-use PlusQuePro\DesignSystem\List\ListComponent;
-use PlusQuePro\DesignSystem\ListItem\ListItemComponent;
+use BackTo\DesignSystem\List\ListComponent;
+use BackTo\DesignSystem\ListItem\ListItemComponent;
 
 $list = new ListComponent();
 $list->addChild((new ListItemComponent())->addChild('Premier item'));

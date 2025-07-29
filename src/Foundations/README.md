@@ -14,7 +14,7 @@ Ce dossier regroupe tous les décorateurs génériques du design system, organis
 
 - Les décorateurs de ce dossier sont **génériques** et peuvent être utilisés par tous les composants du design system.
 - Les décorateurs spécifiques à un composant doivent rester dans le dossier du composant concerné.
-- Tous les décorateurs respectent la convention PSR-4 : `PlusQuePro\DesignSystem\Foundations\...`
+- Tous les décorateurs respectent la convention PSR-4 : `BackTo\DesignSystem\Foundations\...`
 
 ## Structure
 
@@ -25,7 +25,7 @@ Chaque sous-dossier regroupe les décorateurs d'une même famille. Un décorateu
 ### 1. Utilisation directe d'un décorateur
 
 ```php
-use PlusQuePro\DesignSystem\Foundations\Color\BackgroundColorDecorator;
+use BackTo\DesignSystem\Foundations\Color\BackgroundColorDecorator;
 
 $decorator = new BackgroundColorDecorator('primary-500');
 $className = $decorator->getClassName();
@@ -35,8 +35,8 @@ $className = $decorator->getClassName();
 ### 2. Ajout d'un décorateur à un composant (exemple avec un Paragraphe)
 
 ```php
-use PlusQuePro\DesignSystem\Atoms\Paragraph;
-use PlusQuePro\DesignSystem\Foundations\Color\BackgroundColorDecorator;
+use BackTo\DesignSystem\Atoms\Paragraph;
+use BackTo\DesignSystem\Foundations\Color\BackgroundColorDecorator;
 
 $paragraph = new Paragraph('Ceci est un texte.');
 $paragraph->addDecorator(new BackgroundColorDecorator('primary-500'));

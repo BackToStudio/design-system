@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Figure;
+namespace BackTo\DesignSystem\Atoms\Figure;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class FigureComponent extends TokenComponentWithChildren
 {

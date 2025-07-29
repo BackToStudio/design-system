@@ -1,10 +1,10 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\NavigationSubmenu;
+namespace BackTo\DesignSystem\Molecules\NavigationSubmenu;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonComponent;
-use PlusQuePro\DesignSystem\Atoms\List\ListComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponent;
+use BackTo\DesignSystem\Atoms\Button\ButtonComponent;
+use BackTo\DesignSystem\Atoms\List\ListComponent;
 
 class NavigationSubmenuInteractor
 {

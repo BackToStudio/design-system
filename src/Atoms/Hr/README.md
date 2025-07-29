@@ -5,7 +5,7 @@ Le composant `HrComponent` permet d'insérer une ligne de séparation horizontal
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Hr\HrComponent;
+use BackTo\DesignSystem\Hr\HrComponent;
 
 // Création d'un séparateur horizontal
 $hr = new HrComponent();

@@ -5,7 +5,7 @@ Composant permettant de générer une structure de tableau HTML complète, avec 
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Table\TableComponent;
+use BackTo\DesignSystem\Table\TableComponent;
 
 $table = new TableComponent();
 

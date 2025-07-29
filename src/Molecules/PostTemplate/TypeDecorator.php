@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\PostTemplate;
+namespace BackTo\DesignSystem\Molecules\PostTemplate;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class TypeDecorator implements StyleDecorator
 {

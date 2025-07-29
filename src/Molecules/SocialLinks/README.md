@@ -5,8 +5,8 @@ Composant container permettant de regrouper plusieurs liens sociaux dans une lis
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\SocialLinks\SocialLinksComponent;
-use PlusQuePro\DesignSystem\SocialLink\SocialLinkComponent;
+use BackTo\DesignSystem\SocialLinks\SocialLinksComponent;
+use BackTo\DesignSystem\SocialLink\SocialLinkComponent;
 
 $socialLinks = new SocialLinksComponent();
 

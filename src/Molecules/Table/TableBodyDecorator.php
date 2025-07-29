@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Table;
+namespace BackTo\DesignSystem\Molecules\Table;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class TableBodyDecorator implements StyleDecorator
 {

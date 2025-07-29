@@ -1,9 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\PostTemplate;
+namespace BackTo\DesignSystem\Molecules\PostTemplate;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class PostTemplateComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

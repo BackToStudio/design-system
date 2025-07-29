@@ -1,9 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Icon;
+namespace BackTo\DesignSystem\Foundations\Icon;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
-use PlusQuePro\DesignSystem\Foundations\Effect\BorderRadiusDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Foundations\Effect\BorderRadiusDecorator;
 
 class MarkThemeDecorator implements StyleDecorator
 {

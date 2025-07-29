@@ -167,7 +167,7 @@ Le dossier [`src/Foundations/`](src/Foundations/) regroupe tous les décorateurs
 
 - Les décorateurs de ce dossier sont **génériques** et peuvent être utilisés par tous les composants du design system.
 - Les décorateurs spécifiques à un composant doivent rester dans le dossier du composant concerné.
-- Tous les décorateurs respectent la convention PSR-4 : `PlusQuePro\DesignSystem\Foundations\...`
+- Tous les décorateurs respectent la convention PSR-4 : `BackTo\DesignSystem\Foundations\...`
 
 ### Exemples d'utilisation
 

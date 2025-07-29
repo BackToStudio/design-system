@@ -1,16 +1,16 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Cover;
+namespace BackTo\DesignSystem\Molecules\Cover;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Token\HasBackgroundImage;
-use PlusQuePro\DesignSystem\Atoms\Token\HasBackgroundRepeated;
-use PlusQuePro\DesignSystem\Atoms\Token\HasBackgroundParallax;
-use PlusQuePro\DesignSystem\Atoms\Token\HasOpacity;
-use PlusQuePro\DesignSystem\Atoms\Figure\FigureComponent;
-use PlusQuePro\DesignSystem\Atoms\Video\VideoComponent;
-use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\HasBackgroundImage;
+use BackTo\DesignSystem\Atoms\Token\HasBackgroundRepeated;
+use BackTo\DesignSystem\Atoms\Token\HasBackgroundParallax;
+use BackTo\DesignSystem\Atoms\Token\HasOpacity;
+use BackTo\DesignSystem\Atoms\Figure\FigureComponent;
+use BackTo\DesignSystem\Atoms\Video\VideoComponent;
+use BackTo\DesignSystem\Atoms\Image\ImageComponent;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class CoverCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

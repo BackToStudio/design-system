@@ -5,7 +5,7 @@ Composant permettant de générer une balise `<video>` HTML5 configurable pour i
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Video\VideoComponent;
+use BackTo\DesignSystem\Video\VideoComponent;
 
 $video = new VideoComponent();
 $video->setSrc('/videos/demo.mp4');

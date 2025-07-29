@@ -5,8 +5,8 @@ Composant permettant d'afficher une liste HTML, ordonnée (`ol`) ou non ordonné
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\List\ListComponent;
-use PlusQuePro\DesignSystem\ListItem\ListItemComponent;
+use BackTo\DesignSystem\List\ListComponent;
+use BackTo\DesignSystem\ListItem\ListItemComponent;
 
 $listItem1 = new ListItemComponent();
 $listItem1->addChild('Premier item')

@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Interaction;
+namespace BackTo\DesignSystem\Foundations\Interaction;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class ExcerptButtonDecorator implements StyleDecorator
 {

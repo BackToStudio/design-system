@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Summary;
+namespace BackTo\DesignSystem\Atoms\Summary;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class SummaryBehaviourDecorator implements StyleDecorator
 {

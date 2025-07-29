@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Effect;
+namespace BackTo\DesignSystem\Foundations\Effect;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class BorderTopWidthDecorator implements StyleDecorator
 {

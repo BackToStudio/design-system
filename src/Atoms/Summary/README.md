@@ -5,7 +5,7 @@ Composant permettant de générer une balise `<summary>`, à utiliser à l'inté
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Summary\SummaryComponent;
+use BackTo\DesignSystem\Summary\SummaryComponent;
 
 $summary = new SummaryComponent();
 $summary->addChild('Voir plus de détails');

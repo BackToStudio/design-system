@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Spacing;
+namespace BackTo\DesignSystem\Foundations\Spacing;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class MarginRightDecorator implements StyleDecorator
 {

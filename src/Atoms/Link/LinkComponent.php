@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Link;
+namespace BackTo\DesignSystem\Atoms\Link;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class LinkComponent extends TokenComponentWithChildren
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Paragraph;
+namespace BackTo\DesignSystem\Atoms\Paragraph;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class ParagraphSpacingThemeDecorator implements StyleDecorator
 {

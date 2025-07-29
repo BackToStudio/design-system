@@ -5,7 +5,7 @@ Le composant `HeadingComponent` permet de générer dynamiquement des titres HTM
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Heading\HeadingComponent;
+use BackTo\DesignSystem\Heading\HeadingComponent;
 
 // Création d'un heading de niveau 2 (par défaut, issu de l'éditeur Gutenberg)
 $heading = new HeadingComponent();
@@ -14,7 +14,7 @@ echo $heading->getMarkup();
 ```
 
 ```php
-use PlusQuePro\DesignSystem\Heading\HeadingComponent;
+use BackTo\DesignSystem\Heading\HeadingComponent;
 
 // Création d'un heading de niveau 1
 $heading = new HeadingComponent();
@@ -32,9 +32,9 @@ Les décorateurs permettent d'ajouter dynamiquement des classes CSS prédéfinie
 
 ### Exemple avec décorateurs
 ```php
-use PlusQuePro\DesignSystem\Heading\HeadingComponent;
-use PlusQuePro\DesignSystem\Atoms\Heading\HeadingSpacingDecorator;
-use PlusQuePro\DesignSystem\Atoms\Heading\HeadingThemeDecorator;
+use BackTo\DesignSystem\Heading\HeadingComponent;
+use BackTo\DesignSystem\Atoms\Heading\HeadingSpacingDecorator;
+use BackTo\DesignSystem\Atoms\Heading\HeadingThemeDecorator;
 
 $heading = new HeadingComponent();
 $heading->setLevel(2);

@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Image;
+namespace BackTo\DesignSystem\Atoms\Image;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponent;
 
 class ImageComponent extends TokenComponent
 {

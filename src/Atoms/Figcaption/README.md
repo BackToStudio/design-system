@@ -5,7 +5,7 @@ Le composant `FigcaptionComponent` permet de générer dynamiquement une légend
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
+use BackTo\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
 
 // Création d'une légende simple
 $figcaption = new FigcaptionComponent();
@@ -14,7 +14,7 @@ echo $figcaption->getMarkup();
 ```
 
 ```php
-use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
+use BackTo\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
 
 // Légende avec classes CSS personnalisées
 $figcaption = new FigcaptionComponent();

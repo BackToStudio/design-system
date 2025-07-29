@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\MediaText;
+namespace BackTo\DesignSystem\Molecules\MediaText;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class PaddingFluidBottomDecorator implements StyleDecorator
 {

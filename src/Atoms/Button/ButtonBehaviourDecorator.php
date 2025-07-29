@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Button;
+namespace BackTo\DesignSystem\Atoms\Button;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class ButtonBehaviourDecorator implements StyleDecorator
 {

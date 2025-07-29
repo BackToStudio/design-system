@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Layout;
+namespace BackTo\DesignSystem\Foundations\Layout;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class FlexDecorator implements StyleDecorator
 {

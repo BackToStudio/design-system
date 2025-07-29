@@ -1,24 +1,24 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Icon;
+namespace BackTo\DesignSystem\Atoms\Icon;
 
 use Exception;
-use PlusQuePro\DesignSystem\Atoms\Icons\ArrowBottomIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\ArrowLeftIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\ArrowRightIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\FacebookIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\LinkedinIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\YoutubeIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\BurgerMenuIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\CloseIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\ArrowBottomDetailsIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\MonogramPqpIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\IsStyleCursorLeftIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\IsStyleCursorRightIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\LogoPqpIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\LogoPqpFullWhiteIcon;
-use PlusQuePro\DesignSystem\Atoms\Icons\ArrowTopIcon;
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
+use BackTo\DesignSystem\Atoms\Icons\ArrowBottomIcon;
+use BackTo\DesignSystem\Atoms\Icons\ArrowLeftIcon;
+use BackTo\DesignSystem\Atoms\Icons\ArrowRightIcon;
+use BackTo\DesignSystem\Atoms\Icons\FacebookIcon;
+use BackTo\DesignSystem\Atoms\Icons\LinkedinIcon;
+use BackTo\DesignSystem\Atoms\Icons\YoutubeIcon;
+use BackTo\DesignSystem\Atoms\Icons\BurgerMenuIcon;
+use BackTo\DesignSystem\Atoms\Icons\CloseIcon;
+use BackTo\DesignSystem\Atoms\Icons\ArrowBottomDetailsIcon;
+use BackTo\DesignSystem\Atoms\Icons\MonogramPqpIcon;
+use BackTo\DesignSystem\Atoms\Icons\IsStyleCursorLeftIcon;
+use BackTo\DesignSystem\Atoms\Icons\IsStyleCursorRightIcon;
+use BackTo\DesignSystem\Atoms\Icons\LogoPqpIcon;
+use BackTo\DesignSystem\Atoms\Icons\LogoPqpFullWhiteIcon;
+use BackTo\DesignSystem\Atoms\Icons\ArrowTopIcon;
+use BackTo\DesignSystem\Atoms\Token\TokenComponent;
 
 class IconComponent extends TokenComponent
 {

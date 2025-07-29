@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Embed;
+namespace BackTo\DesignSystem\Molecules\Embed;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class EmbedDecorator implements StyleDecorator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Token;
+namespace BackTo\DesignSystem\Atoms\Token;
 
 trait HasOpacity
 {

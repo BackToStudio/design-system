@@ -1,9 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Table;
+namespace BackTo\DesignSystem\Molecules\Table;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class TableComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

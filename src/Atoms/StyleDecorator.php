@@ -1,6 +1,6 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms;
+namespace BackTo\DesignSystem\Atoms;
 
 interface StyleDecorator
 {

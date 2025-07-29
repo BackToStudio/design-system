@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\PostTerms;
+namespace BackTo\DesignSystem\Atoms\PostTerms;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class PostTermsComponent extends TokenComponentWithChildren
 {

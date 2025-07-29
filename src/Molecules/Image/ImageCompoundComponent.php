@@ -1,13 +1,13 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Image;
+namespace BackTo\DesignSystem\Molecules\Image;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Figure\FigureComponent;
-use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
-use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
-use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Figure\FigureComponent;
+use BackTo\DesignSystem\Atoms\Image\ImageComponent;
+use BackTo\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
+use BackTo\DesignSystem\Atoms\Link\LinkComponent;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class ImageCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

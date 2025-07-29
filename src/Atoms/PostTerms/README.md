@@ -5,7 +5,7 @@ Composant permettant d'afficher les termes associés à un post (catégories, é
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\PostTerms\PostTermsComponent;
+use BackTo\DesignSystem\PostTerms\PostTermsComponent;
 
 // Exemple simple
 $postTerms = new PostTermsComponent();
@@ -16,8 +16,8 @@ echo $postTerms->getMarkup();
 
 // Exemple avec des liens (via LinkComponent)
 ```php
-use PlusQuePro\DesignSystem\PostTerms\PostTermsComponent;
-use PlusQuePro\DesignSystem\Link\LinkComponent;
+use BackTo\DesignSystem\PostTerms\PostTermsComponent;
+use BackTo\DesignSystem\Link\LinkComponent;
 
 $postTerms = new PostTermsComponent();
 

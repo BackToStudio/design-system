@@ -1,9 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Embed;
+namespace BackTo\DesignSystem\Molecules\Embed;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class EmbedCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

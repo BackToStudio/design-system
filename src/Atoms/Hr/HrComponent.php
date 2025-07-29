@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Hr;
+namespace BackTo\DesignSystem\Atoms\Hr;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponent;
 
 class HrComponent extends TokenComponent
 {

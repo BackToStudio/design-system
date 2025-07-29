@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Cover;
+namespace BackTo\DesignSystem\Molecules\Cover;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class OpacityDecorator implements StyleDecorator
 {

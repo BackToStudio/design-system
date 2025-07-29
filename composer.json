@@ -1,10 +1,10 @@
 {
-  "name": "webcd/design-system",
+  "name": "backto/design-system",
   "description": "Le design system de PQP",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "PlusQuePro\\DesignSystem\\": "src/"
+      "BackTo\\DesignSystem\\": "src/"
     }
   },
   "require-dev": {

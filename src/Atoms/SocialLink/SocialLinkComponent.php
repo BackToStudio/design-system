@@ -1,10 +1,10 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\SocialLink;
+namespace BackTo\DesignSystem\Atoms\SocialLink;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Link\LinkComponent;
-use PlusQuePro\DesignSystem\Atoms\Icon\IconComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Link\LinkComponent;
+use BackTo\DesignSystem\Atoms\Icon\IconComponent;
 
 class SocialLinkComponent extends TokenComponentWithChildren
 {

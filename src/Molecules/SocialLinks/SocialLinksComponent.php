@@ -1,9 +1,9 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\SocialLinks;
+namespace BackTo\DesignSystem\Molecules\SocialLinks;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class SocialLinksComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

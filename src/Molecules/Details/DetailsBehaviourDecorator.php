@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Details;
+namespace BackTo\DesignSystem\Molecules\Details;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class DetailsBehaviourDecorator implements StyleDecorator
 {

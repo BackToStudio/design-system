@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Paragraph;
+namespace BackTo\DesignSystem\Atoms\Paragraph;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class ParagraphComponent extends TokenComponentWithChildren
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Typography;
+namespace BackTo\DesignSystem\Foundations\Typography;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class FontFamilyDecorator implements StyleDecorator
 {

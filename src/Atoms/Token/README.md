@@ -21,7 +21,7 @@ echo $token->getMarkup(); // <hr class="separator" />
 
 ### Utilisation recommandée : passer par un atome spécialisé
 ```php
-use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
+use BackTo\DesignSystem\Atoms\Image\ImageComponent;
 
 $image = (new ImageComponent())
     ->setSrc('image.jpg')
@@ -45,7 +45,7 @@ echo $token->getMarkup(); // <p class="wp-block-paragraph">Contenu</p>
 
 ### Utilisation recommandée : passer par un atome spécialisé
 ```php
-use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
+use BackTo\DesignSystem\Atoms\Image\ImageComponent;
 
 $p = (new ParagraphComponent())
     ->addClass('wp-block-paragraph')

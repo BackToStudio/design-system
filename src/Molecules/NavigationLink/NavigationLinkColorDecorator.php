@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\NavigationLink;
+namespace BackTo\DesignSystem\Molecules\NavigationLink;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class NavigationLinkColorDecorator implements StyleDecorator
 {

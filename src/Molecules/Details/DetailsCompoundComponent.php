@@ -1,10 +1,10 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Details;
+namespace BackTo\DesignSystem\Molecules\Details;
 
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
-use PlusQuePro\DesignSystem\Atoms\Summary\SummaryComponent;
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Summary\SummaryComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class DetailsCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

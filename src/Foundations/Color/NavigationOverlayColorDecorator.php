@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Foundations\Color;
+namespace BackTo\DesignSystem\Foundations\Color;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class NavigationOverlayColorDecorator implements StyleDecorator
 {

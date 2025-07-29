@@ -1,10 +1,10 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\MediaText;
+namespace BackTo\DesignSystem\Molecules\MediaText;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Image\ImageComponent;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Image\ImageComponent;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class MediaTextCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

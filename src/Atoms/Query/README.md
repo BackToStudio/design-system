@@ -5,7 +5,7 @@ Composant container permettant d'afficher dynamiquement le rÃ©sultat d'une requÃ
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Query\QueryComponent;
+use BackTo\DesignSystem\Query\QueryComponent;
 
 $query = new QueryComponent();
 $query->addChild('<article>Article 1</article>');

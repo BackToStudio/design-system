@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Icons;
+namespace BackTo\DesignSystem\Atoms\Icons;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponent;
+use BackTo\DesignSystem\Atoms\Token\TokenComponent;
 
 class IsStyleCursorRightIcon extends TokenComponent
 {

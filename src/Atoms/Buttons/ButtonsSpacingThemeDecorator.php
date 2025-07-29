@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Buttons;
+namespace BackTo\DesignSystem\Atoms\Buttons;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class ButtonsSpacingThemeDecorator implements StyleDecorator
 {

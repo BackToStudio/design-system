@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Quote;
+namespace BackTo\DesignSystem\Molecules\Quote;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class QuoteWithBackgroundColorDecorator implements StyleDecorator
 {

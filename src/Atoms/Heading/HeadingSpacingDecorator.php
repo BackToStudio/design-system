@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Heading;
+namespace BackTo\DesignSystem\Atoms\Heading;
 
-use PlusQuePro\DesignSystem\Atoms\StyleDecorator;
+use BackTo\DesignSystem\Atoms\StyleDecorator;
 
 class HeadingSpacingDecorator implements StyleDecorator
 {

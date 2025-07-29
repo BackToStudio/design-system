@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules;
+namespace BackTo\DesignSystem\Molecules;
 
-use PlusQuePro\DesignSystem\Atoms\AtomComponentInterface;
+use BackTo\DesignSystem\Atoms\AtomComponentInterface;
 
 interface MoleculeInterface extends AtomComponentInterface
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Molecules\Gallery;
+namespace BackTo\DesignSystem\Molecules\Gallery;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
-use PlusQuePro\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
-use PlusQuePro\DesignSystem\Atoms\Figure\FigureComponent;
-use PlusQuePro\DesignSystem\Molecules\Image\ImageCompoundComponent;
-use PlusQuePro\DesignSystem\Molecules\MoleculeInterface;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
+use BackTo\DesignSystem\Atoms\Figure\FigureComponent;
+use BackTo\DesignSystem\Molecules\Image\ImageCompoundComponent;
+use BackTo\DesignSystem\Molecules\MoleculeInterface;
 
 class GalleryCompoundComponent extends TokenComponentWithChildren implements MoleculeInterface
 {

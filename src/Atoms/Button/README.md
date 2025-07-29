@@ -5,7 +5,7 @@ Le composant `ButtonComponent` permet de générer dynamiquement un bouton HTML 
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonComponent;
+use BackTo\DesignSystem\Atoms\Button\ButtonComponent;
 
 // Création d'un bouton de type submit avec un label
 $button = new ButtonComponent();
@@ -15,7 +15,7 @@ echo $button->getMarkup();
 ```
 
 ```php
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonComponent;
+use BackTo\DesignSystem\Atoms\Button\ButtonComponent;
 
 // Bouton avec des classes CSS personnalisées et un attribut data
 $button = new ButtonComponent();
@@ -35,10 +35,10 @@ Les décorateurs permettent d'ajouter dynamiquement des classes CSS prédéfinie
 
 ### Exemple avec décorateurs
 ```php
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonComponent;
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonBehaviourDecorator;
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonThemeDecorator;
-use PlusQuePro\DesignSystem\Atoms\Button\ButtonWidthDecorator;
+use BackTo\DesignSystem\Atoms\Button\ButtonComponent;
+use BackTo\DesignSystem\Atoms\Button\ButtonBehaviourDecorator;
+use BackTo\DesignSystem\Atoms\Button\ButtonThemeDecorator;
+use BackTo\DesignSystem\Atoms\Button\ButtonWidthDecorator;
 
 $button = new ButtonComponent();
 $button->setType('button');

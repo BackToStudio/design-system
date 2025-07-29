@@ -1,8 +1,8 @@
 <?php
 
-namespace PlusQuePro\DesignSystem\Atoms\Figcaption;
+namespace BackTo\DesignSystem\Atoms\Figcaption;
 
-use PlusQuePro\DesignSystem\Atoms\Token\TokenComponentWithChildren;
+use BackTo\DesignSystem\Atoms\Token\TokenComponentWithChildren;
 
 class FigcaptionComponent extends TokenComponentWithChildren
 {

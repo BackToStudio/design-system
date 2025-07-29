@@ -5,7 +5,7 @@ Composant permettant d'afficher un lien vers un réseau social (Facebook, Linked
 
 ## Exemple d'utilisation
 ```php
-use PlusQuePro\DesignSystem\SocialLink\SocialLinkComponent;
+use BackTo\DesignSystem\SocialLink\SocialLinkComponent;
 
 $socialLink = new SocialLinkComponent();
 $socialLink->setService('facebook'); // facebook, linkedin, youtube
@@ -15,7 +15,7 @@ echo $socialLink->getMarkup();
 
 // Exemple dans une liste
 ```php
-use PlusQuePro\DesignSystem\SocialLink\SocialLinkComponent;
+use BackTo\DesignSystem\SocialLink\SocialLinkComponent;
 
 $links = [];
 foreach ([
