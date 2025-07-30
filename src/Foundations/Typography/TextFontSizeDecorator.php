@@ -22,10 +22,10 @@ class TextFontSizeDecorator implements StyleDecorator
             'h4' => 'text-h4',
             'h5' => 'text-h5',
             'h6' => 'text-h6',
-            'subtitle' => 'text-subtitle',
-            'content' => 'text-content',
-            'light-title' => 'text-light-title',
-            'caption' => 'text-caption',
+            'base' => 'text-base',
+            'big' => 'text-big',
+            'button' => 'text-button',
+            'legend' => 'text-legend',
         ];
 
         $className = '';
