@@ -16,14 +16,14 @@ class BorderTopColorDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $borderTopColorClasses = [
-            'black' => 'border-t-black',
-            'white' => 'border-t-white',
-            'dark' => 'border-t-dark',
-            'light' => 'border-t-light',
-            'primary' => 'border-t-primary',
-            'secondary' => 'border-t-secondary',
-            'primary-light' => 'border-t-primary-light',
-            'secondary-light' => 'border-t-secondary-light'
+            'var:preset|color|black' => 'border-t-black',
+            'var:preset|color|white' => 'border-t-white',
+            'var:preset|color|dark' => 'border-t-dark',
+            'var:preset|color|light' => 'border-t-light',
+            'var:preset|color|primary' => 'border-t-primary',
+            'var:preset|color|secondary' => 'border-t-secondary',
+            'var:preset|color|primary-light' => 'border-t-primary-light',
+            'var:preset|color|secondary-light' => 'border-t-secondary-light'
         ];
 
         $className = '';
