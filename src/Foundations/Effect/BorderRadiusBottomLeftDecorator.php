@@ -15,12 +15,6 @@ class BorderRadiusBottomLeftDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $borderRadiusClasses = [
-            'none' => 'rounded-bl-none',
-            'small' => 'rounded-bl-sm',
-            'medium' => 'rounded-bl-md',
-            'large' => 'rounded-bl-lg',
-            'full' => 'rounded-bl-full',
-            'xl' => 'rounded-bl-xl',
             '4px' => 'rounded-bl-xs',
             '8px' => 'rounded-bl-sm',
             '16px' => 'rounded-bl-md',

@@ -15,12 +15,6 @@ class BorderRadiusTopRightDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $borderRadiusClasses = [
-            'none' => 'rounded-tr-none',
-            'small' => 'rounded-tr-sm',
-            'medium' => 'rounded-tr-md',
-            'large' => 'rounded-tr-lg',
-            'full' => 'rounded-tr-full',
-            'xl' => 'rounded-tr-xl',
             '4px' => 'rounded-tr-xs',
             '8px' => 'rounded-tr-sm',
             '16px' => 'rounded-tr-md',

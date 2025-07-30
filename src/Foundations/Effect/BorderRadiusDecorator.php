@@ -15,13 +15,6 @@ class BorderRadiusDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $borderRadiusClasses = [
-            'none' => 'rounded-none',
-            'xsmall' => 'rounded-xs',
-            'small' => 'rounded-sm',
-            'medium' => 'rounded-md',
-            'large' => 'rounded-lg',
-            'full' => 'rounded-full',
-            'xl' => 'rounded-xl',
             '4px' => 'rounded-xs',
             '8px' => 'rounded-sm',
             '16px' => 'rounded-md',
