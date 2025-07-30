@@ -16,10 +16,14 @@ class BorderLeftColorDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $borderLeftColorClasses = [
-            'var:preset|color|white' => 'border-l-white',
-            'var:preset|color|deep-10' => 'border-l-deep-10',
-            'var:preset|color|primary-500' => 'border-l-primary-500',
-            'var:preset|color|primary-950' => 'border-l-primary-950',
+            'black' => 'border-l-black',
+            'white' => 'border-l-white',
+            'dark' => 'border-l-dark',
+            'light' => 'border-l-light',
+            'primary' => 'border-l-primary',
+            'secondary' => 'border-l-secondary',
+            'primary-light' => 'border-l-primary-light',
+            'secondary-light' => 'border-l-secondary-light'
         ];
 
         $className = '';
