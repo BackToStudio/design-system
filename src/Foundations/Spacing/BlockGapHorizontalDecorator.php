@@ -17,16 +17,16 @@ class BlockGapHorizontalDecorator implements StyleDecorator
     {
         $blockGapHorizontalClasses = [
             'var:preset|spacing|01-none' => 'gap-x-0',
-            'var:preset|spacing|02-2xs' => 'gap-x-2',
-            'var:preset|spacing|03-xs' => 'gap-x-4',
-            'var:preset|spacing|04-s' => 'gap-x-6',
-            'var:preset|spacing|05-m' => 'gap-x-8',
-            'var:preset|spacing|06-l' => 'gap-x-10',
-            'var:preset|spacing|07-xl' => 'gap-x-16',
-            'var:preset|spacing|08-2xl' => 'gap-x-20',
-            'var:preset|spacing|09-3xl' => 'gap-x-32',
-            'var:preset|spacing|10-4xl' => 'gap-x-40',
-            'var:preset|spacing|11-5xl' => 'gap-x-48',
+            'var:preset|spacing|02-2xs' => 'gap-x-2xs',
+            'var:preset|spacing|03-xs' => 'gap-x-xs',
+            'var:preset|spacing|04-s' => 'gap-x-s',
+            'var:preset|spacing|05-m' => 'gap-x-m',
+            'var:preset|spacing|06-l' => 'gap-x-l',
+            'var:preset|spacing|07-xl' => 'gap-x-xl',
+            'var:preset|spacing|08-2xl' => 'gap-x-2xl',
+            'var:preset|spacing|09-3xl' => 'gap-x-3xl',
+            'var:preset|spacing|10-4xl' => 'gap-x-4xl',
+            'var:preset|spacing|11-5xl' => 'gap-x-5xl',
             'var:preset|spacing|12-global-padding' => 'gap-x-6xl',
         ];
 

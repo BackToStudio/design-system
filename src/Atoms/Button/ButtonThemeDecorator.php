@@ -8,6 +8,6 @@ class ButtonThemeDecorator implements StyleDecorator
 {
     public function getClassName(): string
     {
-        return 'text-light-title font-bold';
+        return 'text-button font-semibold';
     }
 }
