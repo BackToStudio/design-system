@@ -10,7 +10,7 @@ class TableFootDecorator implements StyleDecorator
     {
         $classNames = [];
 
-        $classNames[] = 'bg-deep-10 text-h6 font-semibold border-t border-deep-800';
+        $classNames[] = 'bg-disabled-light text-h6 font-semibold border-t border-disabled';
         $classNames[] = '[&_td]:p-xs [&_tr]:grid';
         $classNames[] = '[&_tr]:md:table-row [&_tr]:grid-rows-1';
         $classNames[] = '[&_tr]:grid-cols-3 [&_tr]:w-full';

@@ -23,7 +23,15 @@ class BorderTopColorDecorator implements StyleDecorator
             'var:preset|color|primary' => 'border-t-primary',
             'var:preset|color|secondary' => 'border-t-secondary',
             'var:preset|color|primary-light' => 'border-t-primary-light',
-            'var:preset|color|secondary-light' => 'border-t-secondary-light'
+            'var:preset|color|secondary-light' => 'border-t-secondary-light',
+            'var:preset|color|success' => 'border-t-success',
+            'var:preset|color|success-light' => 'border-t-success-light',
+            'var:preset|color|warning' => 'border-t-warning',
+            'var:preset|color|warning-light' => 'border-t-warning-light',
+            'var:preset|color|error' => 'border-t-error',
+            'var:preset|color|error-light' => 'border-t-error-light',
+            'var:preset|color|disabled' => 'border-t-disabled',
+            'var:preset|color|disabled-light' => 'border-t-disabled-light',
         ];
 
         $className = '';

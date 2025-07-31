@@ -9,8 +9,8 @@ class NavigationSubmenuDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $classNames = [];
-        $classNames[] = 'text-primary-950 lg:text-white';
-        $classNames[] = '[&_a]:w-full [&_a]:text-deep-800';
+        $classNames[] = 'text-primary lg:text-light';
+        $classNames[] = '[&_a]:w-full [&_a]:text-disabled-light';
 
         return join(' ', $classNames);
     }

@@ -23,7 +23,15 @@ class TextColorDecorator implements StyleDecorator
             'primary' => 'text-primary',
             'secondary' => 'text-secondary',
             'primary-light' => 'text-primary-light',
-            'secondary-light' => 'text-secondary-light'
+            'secondary-light' => 'text-secondary-light',
+            'success' => 'text-success',
+            'success-light' => 'text-success-light',
+            'warning' => 'text-warning',
+            'warning-light' => 'text-warning-light',
+            'error' => 'text-error',
+            'error-light' => 'text-error-light',
+            'disabled' => 'text-disabled',
+            'disabled-light' => 'text-disabled-light',
         ];
 
         $className = '';

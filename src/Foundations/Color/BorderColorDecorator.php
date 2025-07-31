@@ -23,7 +23,14 @@ class BorderColorDecorator implements StyleDecorator
             'primary' => 'border-primary',
             'secondary' => 'border-secondary',
             'primary-light' => 'border-primary-light',
-            'secondary-light' => 'border-secondary-light'
+            'secondary-light' => 'border-secondary-light',
+            'success' => 'border-success',
+            'success-light' => 'border-success-light',
+            'warning' => 'border-warning',
+            'warning-light' => 'border-warning-light',
+            'error' => 'border-error',
+            'error-light' => 'border-error-light',
+            'disabled' => 'border-disabled',
         ];
 
         $className = '';

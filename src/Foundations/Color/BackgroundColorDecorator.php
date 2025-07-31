@@ -23,7 +23,15 @@ class BackgroundColorDecorator implements StyleDecorator
             'primary' => 'bg-primary text-light',
             'secondary' => 'bg-secondary text-light',
             'primary-light' => 'bg-primary-light text-dark',
-            'secondary-light' => 'bg-secondary-light text-dark'
+            'secondary-light' => 'bg-secondary-light text-dark',
+            'success' => 'bg-success text-success-light',
+            'success-light' => 'bg-success-light text-success',
+            'warning' => 'bg-warning text-warning-light',
+            'warning-light' => 'bg-warning-light text-warning',
+            'error' => 'bg-error text-error-light',
+            'error-light' => 'bg-error-light text-error',
+            'disabled' => 'bg-disabled text-disabled-light',
+            'disabled-light' => 'bg-disabled-light text-disabled',
         ];
 
         $className = '';

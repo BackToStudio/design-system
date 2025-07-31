@@ -26,6 +26,14 @@ class IsStyleOutlineDecorator implements StyleDecorator
             'secondary' => 'text-secondary',
             'primary-light' => 'text-primary-light',
             'secondary-light' => 'text-secondary-light',
+            'success' => 'text-success',
+            'success-light' => 'text-success-light',
+            'warning' => 'text-warning',
+            'warning-light' => 'text-warning-light',
+            'error' => 'text-error',
+            'error-light' => 'text-error-light',
+            'disabled' => 'text-disabled',
+            'disabled-light' => 'text-disabled-light',
         ];
 
         $borderColors = [
@@ -37,6 +45,14 @@ class IsStyleOutlineDecorator implements StyleDecorator
             'secondary' => 'border-secondary',
             'primary-light' => 'border-primary-light',
             'secondary-light' => 'border-secondary-light',
+            'success' => 'border-success',
+            'success-light' => 'border-success-light',
+            'warning' => 'border-warning',
+            'warning-light' => 'border-warning-light',
+            'error' => 'border-error',
+            'error-light' => 'border-error-light',
+            'disabled' => 'border-disabled',
+            'disabled-light' => 'border-disabled-light',
         ];
 
         $textColor = $textColors[$this->color] ?? '';

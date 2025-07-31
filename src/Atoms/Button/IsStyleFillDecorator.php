@@ -26,6 +26,14 @@ class IsStyleFillDecorator implements StyleDecorator
             'secondary' => 'text-light',
             'primary-light' => 'text-dark',
             'secondary-light' => 'text-dark',
+            'success' => 'text-success-light',
+            'success-light' => 'text-success',
+            'warning' => 'text-warning-light',
+            'warning-light' => 'text-warning',
+            'error' => 'text-error-light',
+            'error-light' => 'text-error',
+            'disabled' => 'text-disabled-light',
+            'disabled-light' => 'text-disabled',
         ];
 
         $borderColors = [
@@ -33,10 +41,18 @@ class IsStyleFillDecorator implements StyleDecorator
             'white' => 'border-white',
             'dark' => 'border-dark',
             'light' => 'border-light',
-            'primary' => 'border-primary-light',
-            'secondary' => 'border-secondary-light',
-            'primary-light' => 'border-primary',
-            'secondary-light' => 'border-secondary',
+            'primary' => 'border-primary',
+            'secondary' => 'border-secondary',
+            'primary-light' => 'border-primary-light',
+            'secondary-light' => 'border-secondary-light',
+            'success' => 'border-success',
+            'success-light' => 'border-success-light',
+            'warning' => 'border-warning',
+            'warning-light' => 'border-warning-light',
+            'error' => 'border-error',
+            'error-light' => 'border-error-light',
+            'disabled' => 'border-disabled',
+            'disabled-light' => 'border-disabled-light',
         ];
 
         $backgroundColors = [
@@ -48,6 +64,14 @@ class IsStyleFillDecorator implements StyleDecorator
             'secondary' => 'bg-secondary',
             'primary-light' => 'bg-primary-light',
             'secondary-light' => 'bg-secondary-light',
+            'success' => 'bg-success',
+            'success-light' => 'bg-success-light',
+            'warning' => 'bg-warning',
+            'warning-light' => 'bg-warning-light',
+            'error' => 'bg-error',
+            'error-light' => 'bg-error-light',
+            'disabled' => 'bg-disabled',
+            'disabled-light' => 'bg-disabled-light',
         ];
 
         $textColor = $textColors[$this->color] ?? '';

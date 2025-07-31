@@ -23,7 +23,15 @@ class BorderBottomColorDecorator implements StyleDecorator
             'var:preset|color|primary' => 'border-b-primary',
             'var:preset|color|secondary' => 'border-b-secondary',
             'var:preset|color|primary-light' => 'border-b-primary-light',
-            'var:preset|color|secondary-light' => 'border-b-secondary-light'
+            'var:preset|color|secondary-light' => 'border-b-secondary-light',
+            'var:preset|color|success' => 'border-b-success',
+            'var:preset|color|success-light' => 'border-b-success-light',
+            'var:preset|color|warning' => 'border-b-warning',
+            'var:preset|color|warning-light' => 'border-b-warning-light',
+            'var:preset|color|error' => 'border-b-error',
+            'var:preset|color|error-light' => 'border-b-error-light',
+            'var:preset|color|disabled' => 'border-b-disabled',
+            'var:preset|color|disabled-light' => 'border-b-disabled-light',
         ];
 
         $className = '';

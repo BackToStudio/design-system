@@ -15,6 +15,25 @@ class IsStyleFillHoverDecorator implements StyleDecorator
 
     public function getClassName(): string
     {
+        $textColors = [
+            'black' => 'hover:text-black',
+            'white' => 'hover:text-white',
+            'dark' => 'hover:text-dark',
+            'light' => 'hover:text-light',
+            'primary' => 'hover:text-primary',
+            'secondary' => 'hover:text-secondary',
+            'primary-light' => 'hover:text-primary-light',
+            'secondary-light' => 'hover:text-secondary-light',
+            'success' => 'hover:text-success',
+            'success-light' => 'hover:text-success-light',
+            'warning' => 'hover:text-warning',
+            'warning-light' => 'hover:text-warning-light',
+            'error' => 'hover:text-error',
+            'error-light' => 'hover:text-error-light',
+            'disabled' => 'hover:text-disabled',
+            'disabled-light' => 'hover:text-disabled-light',
+        ];
+
         $borderColors = [
             'black' => 'hover:border-white',
             'white' => 'hover:border-black',
@@ -24,6 +43,14 @@ class IsStyleFillHoverDecorator implements StyleDecorator
             'secondary' => 'hover:border-secondary-light',
             'primary-light' => 'hover:border-primary',
             'secondary-light' => 'hover:border-secondary',
+            'success' => 'hover:border-success-light',
+            'success-light' => 'hover:border-success',
+            'warning' => 'hover:border-warning-light',
+            'warning-light' => 'hover:border-warning',
+            'error' => 'hover:border-error-light',
+            'error-light' => 'hover:border-error',
+            'disabled' => 'hover:border-disabled-light',
+            'disabled-light' => 'hover:border-disabled',
         ];
 
         $backgroundColors = [
@@ -35,6 +62,14 @@ class IsStyleFillHoverDecorator implements StyleDecorator
             'secondary' => 'hover:bg-secondary-light',
             'primary-light' => 'hover:bg-primary',
             'secondary-light' => 'hover:bg-secondary',
+            'success' => 'hover:bg-success-light',
+            'success-light' => 'hover:bg-success',
+            'warning' => 'hover:bg-warning-light',
+            'warning-light' => 'hover:bg-warning',
+            'error' => 'hover:bg-error-light',
+            'error-light' => 'hover:bg-error',
+            'disabled' => 'hover:bg-disabled-light',
+            'disabled-light' => 'hover:bg-disabled',
         ];
 
         $borderColor = $borderColors[$this->color] ?? '';

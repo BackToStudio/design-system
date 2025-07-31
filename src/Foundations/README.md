@@ -27,9 +27,9 @@ Chaque sous-dossier regroupe les décorateurs d'une même famille. Un décorateu
 ```php
 use BackTo\DesignSystem\Foundations\Color\BackgroundColorDecorator;
 
-$decorator = new BackgroundColorDecorator('primary-500');
+$decorator = new BackgroundColorDecorator('primary');
 $className = $decorator->getClassName();
-// $className = 'bg-primary-500 text-white has-background-color has-background'
+// $className = 'bg-primary text-white has-background-color has-background'
 ```
 
 ### 2. Ajout d'un décorateur à un composant (exemple avec un Paragraphe)
@@ -39,10 +39,10 @@ use BackTo\DesignSystem\Atoms\Paragraph;
 use BackTo\DesignSystem\Foundations\Color\BackgroundColorDecorator;
 
 $paragraph = new Paragraph('Ceci est un texte.');
-$paragraph->addDecorator(new BackgroundColorDecorator('primary-500'));
+$paragraph->addDecorator(new BackgroundColorDecorator('primary'));
 
 echo $paragraph->getMarkup();
-// <p class="bg-primary-500 text-white has-background-color has-background">Ceci est un texte.</p>
+// <p class="bg-primary text-white has-background-color has-background">Ceci est un texte.</p>
 ```
 
 ---

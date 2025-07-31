@@ -23,7 +23,15 @@ class BorderRightColorDecorator implements StyleDecorator
             'var:preset|color|primary' => 'border-r-primary',
             'var:preset|color|secondary' => 'border-r-secondary',
             'var:preset|color|primary-light' => 'border-r-primary-light',
-            'var:preset|color|secondary-light' => 'border-r-secondary-light'
+            'var:preset|color|secondary-light' => 'border-r-secondary-light',
+            'var:preset|color|success' => 'border-r-success',
+            'var:preset|color|success-light' => 'border-r-success-light',
+            'var:preset|color|warning' => 'border-r-warning',
+            'var:preset|color|warning-light' => 'border-r-warning-light',
+            'var:preset|color|error' => 'border-r-error',
+            'var:preset|color|error-light' => 'border-r-error-light',
+            'var:preset|color|disabled' => 'border-r-disabled',
+            'var:preset|color|disabled-light' => 'border-r-disabled-light',
         ];
 
         $className = '';

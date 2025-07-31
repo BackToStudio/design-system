@@ -18,7 +18,7 @@ use BackTo\DesignSystem\Atoms\Figcaption\FigcaptionComponent;
 
 // Légende avec classes CSS personnalisées
 $figcaption = new FigcaptionComponent();
-$figcaption->addClass('text-center text-gray-500');
+$figcaption->addClass('text-center text-primary');
 $figcaption->addChild('Description détaillée du média');
 echo $figcaption->getMarkup();
 ```
