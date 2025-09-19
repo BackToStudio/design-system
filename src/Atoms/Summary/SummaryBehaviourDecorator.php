@@ -8,7 +8,7 @@ class SummaryBehaviourDecorator implements StyleDecorator
 {
     public function getClassName(): string
     {
-        $classNames = ' relative cursor-pointer rounded-lg';
+        $classNames = ' relative cursor-pointer';
 
         $classNames .= ' marker:content-none marker:hidden';
 

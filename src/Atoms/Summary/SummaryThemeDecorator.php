@@ -24,8 +24,6 @@ class SummaryThemeDecorator implements StyleDecorator
     public function __construct()
     {
         $this->blockGapDecorator = new BlockGapDecorator('var:preset|spacing|xs');
-        $this->textFontSizeDecorator = new TextFontSizeDecorator('h5');
-        $this->fontWeightDecorator = new FontWeightDecorator('700');
         $this->paddingTopDecorator = new PaddingTopDecorator(
             'var:preset|spacing|s'
         );
@@ -45,8 +43,6 @@ class SummaryThemeDecorator implements StyleDecorator
         $classNames = [];
 
         $classNames[] = $this->blockGapDecorator->getClassName();
-        $classNames[] = $this->textFontSizeDecorator->getClassName();
-        $classNames[] = $this->fontWeightDecorator->getClassName();
         $classNames[] = $this->paddingTopDecorator->getClassName();
         $classNames[] = $this->paddingBottomDecorator->getClassName();
         $classNames[] = $this->paddingLeftDecorator->getClassName();
