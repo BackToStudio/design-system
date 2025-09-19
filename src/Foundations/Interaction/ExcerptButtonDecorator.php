@@ -8,12 +8,11 @@ class ExcerptButtonDecorator implements StyleDecorator
 {
     public function getClassName(): string
     {
-        $classes = '-ml-s';
+        $className = [];
+        $className[] = '-ml-s';
+        $className[] = 'before:before-hover';
+        $className[] = '!gap-2xs !underline-offset-2';
 
-        $classes .= ' before:before-hover';
-
-        $classes .= ' !gap-2xs !underline-offset-2';
-
-        return $classes;
+        return join(' ', $className);
     }
 }
