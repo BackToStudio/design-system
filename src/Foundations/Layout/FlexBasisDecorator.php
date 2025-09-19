@@ -16,12 +16,12 @@ class FlexBasisDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $flexBasisClasses = [
-            '25' => 'md:basis-1/4',
-            '33.33' => 'md:basis-1/3',
-            '50' => 'md:basis-1/2',
-            '66.66' => 'md:basis-2/3',
-            '75' => 'md:basis-3/4',
-            '100' => 'md:basis-full',
+            '25' => 'md:!basis-1/4',
+            '33.33' => 'md:!basis-1/3',
+            '50' => 'md:!basis-1/2',
+            '66.66' => 'md:!basis-2/3',
+            '75' => 'md:!basis-3/4',
+            '100' => 'md:!basis-full',
         ];
 
         $classNames = [];
