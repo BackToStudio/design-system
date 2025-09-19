@@ -15,10 +15,10 @@ use BackTo\DesignSystem\Atoms\Icons\ArrowBottomDetailsIcon;
 use BackTo\DesignSystem\Atoms\Icons\MonogramPqpIcon;
 use BackTo\DesignSystem\Atoms\Icons\IsStyleCursorLeftIcon;
 use BackTo\DesignSystem\Atoms\Icons\IsStyleCursorRightIcon;
-use BackTo\DesignSystem\Atoms\Icons\LogoPqpIcon;
-use BackTo\DesignSystem\Atoms\Icons\LogoPqpFullWhiteIcon;
 use BackTo\DesignSystem\Atoms\Icons\ArrowTopIcon;
 use BackTo\DesignSystem\Atoms\Token\TokenComponent;
+use BackTo\DesignSystem\Atoms\Icons\AddIcon;
+use BackTo\DesignSystem\Atoms\Icons\RemoveIcon;
 
 class IconComponent extends TokenComponent
 {
@@ -47,11 +47,11 @@ class IconComponent extends TokenComponent
             'burger_menu' => BurgerMenuIcon::class,
             'close' => CloseIcon::class,
             'arrow_bottom_details' => ArrowBottomDetailsIcon::class,
-            'monogram_pqp' => MonogramPqpIcon::class,
             'cursor_left' => IsStyleCursorLeftIcon::class,
             'cursor_right' => IsStyleCursorRightIcon::class,
-            'logo_pqp' => LogoPqpIcon::class,
-            'logo_pqp_full_white' => LogoPqpFullWhiteIcon::class,
+            'add' => AddIcon::class,
+            'remove' => RemoveIcon::class,
+
         ];
 
         if (!array_key_exists($this->getIcon(), $iconComponents)) {
