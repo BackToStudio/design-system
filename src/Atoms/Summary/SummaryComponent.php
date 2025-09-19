@@ -7,13 +7,25 @@ use BackTo\DesignSystem\Atoms\Icon\IconComponent;
 
 class SummaryComponent extends TokenComponentWithChildren
 {
+    private string $iconName = 'arrow_bottom_details';
+
+    public function setIconName(string $iconName): void
+    {
+        $this->iconName = $iconName;
+    }
+
+    public function getIconName(): string
+    {
+        return $this->iconName;
+    }
+
     public function getMarkup(): string
     {
         $this->setTagName('summary');
         $this->addClass('wp-block-details__summary');
         $this->addClass('cursor-pointer');
 
-        $iconArrowDown = new IconComponent('arrow_bottom_details');
+        $iconArrowDown = new IconComponent($this->iconName);
         $iconArrowDown->addAttribute('aria-label', 'Ouvrir le détail');
 
         $this->addChild($iconArrowDown->getMarkup());
