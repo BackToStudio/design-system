@@ -12,7 +12,6 @@ use BackTo\DesignSystem\Atoms\Icons\YoutubeIcon;
 use BackTo\DesignSystem\Atoms\Icons\BurgerMenuIcon;
 use BackTo\DesignSystem\Atoms\Icons\CloseIcon;
 use BackTo\DesignSystem\Atoms\Icons\ArrowBottomDetailsIcon;
-use BackTo\DesignSystem\Atoms\Icons\MonogramPqpIcon;
 use BackTo\DesignSystem\Atoms\Icons\IsStyleCursorLeftIcon;
 use BackTo\DesignSystem\Atoms\Icons\IsStyleCursorRightIcon;
 use BackTo\DesignSystem\Atoms\Icons\ArrowTopIcon;
