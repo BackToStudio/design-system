@@ -31,6 +31,7 @@ class BorderColorDecorator implements StyleDecorator
             'error' => 'border-error',
             'error-light' => 'border-error-light',
             'disabled' => 'border-disabled',
+            'transparent' => 'border-transparent',
         ];
 
         $className = '';
