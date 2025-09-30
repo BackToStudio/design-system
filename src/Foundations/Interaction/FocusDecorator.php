@@ -10,7 +10,7 @@ class FocusDecorator implements StyleDecorator
     {
         $className = [];
         $className[] = 'focus-visible:outline-none focus-visible:rounded-full';
-        $className[] = 'focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-secondary';
+        $className[] = 'focus-visible:ring-2 focus-visible:ring-offset-2';
 
         return join(' ', $className);
     }
