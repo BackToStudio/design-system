@@ -16,18 +16,18 @@ class BlockGapHorizontalDecorator implements StyleDecorator
     public function getClassName(): string
     {
         $blockGapHorizontalClasses = [
-            'var:preset|spacing|01-none' => 'gap-x-0',
-            'var:preset|spacing|02-2xs' => 'gap-x-2xs',
-            'var:preset|spacing|03-xs' => 'gap-x-xs',
-            'var:preset|spacing|04-s' => 'gap-x-s',
-            'var:preset|spacing|05-m' => 'gap-x-m',
-            'var:preset|spacing|06-l' => 'gap-x-l',
-            'var:preset|spacing|07-xl' => 'gap-x-xl',
-            'var:preset|spacing|08-2xl' => 'gap-x-2xl',
-            'var:preset|spacing|09-3xl' => 'gap-x-3xl',
-            'var:preset|spacing|10-4xl' => 'gap-x-4xl',
-            'var:preset|spacing|11-5xl' => 'gap-x-5xl',
-            'var:preset|spacing|12-global-padding' => 'gap-x-6xl',
+            'var:preset|spacing|01-none' => 'gap-y-0 gap-x-0',
+            'var:preset|spacing|02-2xs' => 'gap-y-2xs gap-x-2xs',
+            'var:preset|spacing|03-xs' => 'gap-y-xs gap-x-xs',
+            'var:preset|spacing|04-s' => 'gap-y-s gap-x-s',
+            'var:preset|spacing|05-m' => 'gap-y-s gap-x-m',
+            'var:preset|spacing|06-l' => 'gap-y-m gap-x-l',
+            'var:preset|spacing|07-xl' => 'gap-y-l gap-x-xl',
+            'var:preset|spacing|08-2xl' => 'gap-y-xl gap-x-2xl',
+            'var:preset|spacing|09-3xl' => 'gap-y-2xl gap-x-3xl',
+            'var:preset|spacing|10-4xl' => 'gap-y-3xl gap-x-4xl',
+            'var:preset|spacing|11-5xl' => 'gap-y-4xl gap-x-5xl',
+            'var:preset|spacing|12-global-padding' => 'gap-y-5xl gap-x-6xl',
         ];
 
         $className = '';
