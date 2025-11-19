@@ -8,6 +8,6 @@ class ListSpacingDecorator implements StyleDecorator
 {
     public function getClassName(): string
     {
-        return '[*_+_&]:mt-xs [&_+_*]:mt-xs';
+        return '[*_+_&]:mt-2xs [&_+_*]:mt-2xs';
     }
 }
