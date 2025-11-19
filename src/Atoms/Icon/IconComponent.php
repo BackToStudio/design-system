@@ -46,8 +46,6 @@ class IconComponent extends TokenComponent
             'burger_menu' => BurgerMenuIcon::class,
             'close' => CloseIcon::class,
             'arrow_bottom_details' => ArrowBottomDetailsIcon::class,
-            'cursor_left' => IsStyleCursorLeftIcon::class,
-            'cursor_right' => IsStyleCursorRightIcon::class,
             'add' => AddIcon::class,
             'remove' => RemoveIcon::class,
 
