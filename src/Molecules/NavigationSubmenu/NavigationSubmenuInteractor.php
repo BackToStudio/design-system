@@ -33,10 +33,13 @@ class NavigationSubmenuInteractor
             ->addAttribute('x-on:click', 'isSubmenuOpen = !isSubmenuOpen')
             ->addAttribute('x-bind:aria-expanded', 'isSubmenuOpen')
             ->addAttribute('x-ref', 'button')
-            ->addAttribute('type', 'button');
+            ->addAttribute('type', 'button')
+            ->addAttribute('aria-controls', 'submenu');
+
 
         $this->submenu
-            ->addAttribute('x-bind:aria-expanded', 'isSubmenuOpen')
+            ->addAttribute('x-show', 'isSubmenuOpen')
+            ->addAttribute('id', 'submenu')
             ->addAttribute('x-cloak', '');
     }
 }

@@ -26,7 +26,7 @@ class SummaryComponent extends TokenComponentWithChildren
         $this->addClass('cursor-pointer');
 
         $iconArrowDown = new IconComponent($this->iconName);
-        $iconArrowDown->addAttribute('aria-label', 'Ouvrir le détail');
+        $iconArrowDown->addAttribute('aria-hidden', 'true');
 
         $this->addChild($iconArrowDown->getMarkup());
 
