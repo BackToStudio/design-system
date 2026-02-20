@@ -8,6 +8,6 @@ class ListThemeDecorator implements StyleDecorator
 {
     public function getClassName(): string
     {
-        return 'pl-6 [&_.is-style-check]:marker:content-none';
+        return 'pl-8 gap-0.5 [&_.is-style-check]:marker:content-none';
     }
 }
