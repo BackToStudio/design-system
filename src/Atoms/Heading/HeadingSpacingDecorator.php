@@ -30,7 +30,7 @@ class HeadingSpacingDecorator implements StyleDecorator
         return match ($this->level) {
             1 => ['top' => 'mt-l', 'topMd' => 'mt-xl'],
             2 => ['top' => 'mt-m', 'topMd' => 'mt-l'],
-            3 => ['top' => 'mt-s', 'topMd' => 'mt-m'],
+            3 => ['top' => 'mt-s', 'topMd' => 'mt-s'],
             4, 5, 6 => ['top' => 'mt-xs', 'topMd' => 'mt-s'],
             default => ['top' => 'mt-s', 'topMd' => 'mt-m'],
         };
